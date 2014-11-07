@@ -1,8 +1,1433 @@
+<!DOCTYPE html>
 <html>
 <head>
-	
+    <!--
+    <meta name="googlebot" content="index,follow,noodp,noydir">
+    <meta name="keywords" content="فناوری, اخبار, تکنولوژی, آی تی, پادکست, بررسی, تبلت, وبلاگ, وبلاگ آی تی, رسانه, فارسی">
+    <meta name="description" content="رسانه فناوری وب ایران">
+    -->
+    <meta charset="UTF-8">
+    <script type="text/javascript" async="" src="js/ga.js"></script>
+    <script async="" src="js/cloudflare.min.js"></script>
+    <script type="text/javascript">
+        //<![CDATA[
+        try{if (!window.CloudFlare) {var CloudFlare=[{verbose:0,p:0,byc:0,owlid:"cf",bag2:1,mirage2:0,oracle:0,paths:{cloudflare:"/cdn-  cgi/nexp/dok2v=1613a3a185/"},atok:"197841db1a08d2a69a11cc5ad24d7dd9",petok:"3c7dd2c70e92b3b957acfddfd8bf20fec8960973-1414817085-1800",zone:"weblogina.com",rocket:"0",apps:{"ga_key":{"ua":"UA-2988827-4","ga_bs":"2"}}}];CloudFlare.push({"apps":{"ape":"958d1cc92e0ef6edce0a8cded2484e53"}});!function(a,b){a=document.createElement("script"),b=document.getElementsByTagName("script")[0],a.async=!0,a.src="//ajax.cloudflare.com/cdn-cgi/nexp/dok2v=919620257c/cloudflare.min.js",b.parentNode.insertBefore(a,b)}()}}catch(e){};
+        //]]>
+    </script>
+    -->
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/font.css">
+    <link rel="first" href="http://weblogina.com/" title="صفحه اول">
+    <link rel="alternate" type="application/atom+xml" title="مطالب اخیر" href="http://feeds.weblogina.com/weblogina">
+    <script type="text/javascript" src="js/mt.js"></script>
+    <link rel="icon" href="http://weblogina.com/favicon.ico" sizes="16x16" type="image/x-icon">
+    <link href="https://plus.google.com/110198251256856743470" rel="publisher">
+    <script type="text/javascript">
+        /* CloudFlare analytics upgrade */
+    </script>
+    <style type="text/css">
+        .cf-hidden
+        {
+            display: none;
+        }
+        
+        .cf-invisible
+        {
+            visibility: hidden;
+        }
+    </style>
+    <link id="css-hovercard" rel="stylesheet" href="css/css-hovercard.css" />
 </head>
 <body>
-	This Is Ali Ekramian Git Page.
+    <title>وبلاگینا </title>
+
+    <script type="text/javascript">
+        /* <![CDATA[ */
+        var _gaq = _gaq || [];
+        _gaq.push(['_setAccount', 'UA-2988827-4']);
+        _gaq.push(['_trackPageview']);
+
+        (function() {
+            var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+            ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+            var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+        })();
+
+        (function(b){(function(a){"__CF"in b&&"DJS"in b.__CF?b.__CF.DJS.push(a):"addEventListener"in b?b.addEventListener("load",a,!1):b.attachEvent("onload",a)})(function(){"FB"in b&&"Event"in FB&&"subscribe"in FB.Event&&(FB.Event.subscribe("edge.create",function(a){_gaq.push(["_trackSocial","facebook","like",a])}),FB.Event.subscribe("edge.remove",function(a){_gaq.push(["_trackSocial","facebook","unlike",a])}),FB.Event.subscribe("message.send",function(a){_gaq.push(["_trackSocial","facebook","send",a])}));"twttr"in b&&"events"in twttr&&"bind"in twttr.events&&twttr.events.bind("tweet",function(a){if(a){var b;if(a.target&&a.target.nodeName=="IFRAME")a:{if(a=a.target.src){a=a.split("#")[0].match(/[^?=&]+=([^&]*)?/g);b=0;for(var c;c=a[b];++b)if(c.indexOf("url")===0){b=unescape(c.split("=")[1]);break a}}b=void 0}_gaq.push(["_trackSocial","twitter","tweet",b])}})})})(window);
+        /* ]]> */
+    </script>
+    
+    <!-- >>> HEADER <<< -->
+    <header>
+        <div class="topbar">
+            <div class="container">
+                <form method="get" action="http://weblogina.com/mt/mt-search.cgi" class="search pull-left">
+                    <input type="text" name="search" placeholder="جستجو..." />
+                    <!--
+                    <input type="hidden" name="IncludeBlogs" value="2,1,9,4,11,5,7,3,10,8,6" />
+                    <input type="hidden" name="limit" value="20" />
+                    -->
+                    <i class="icon"></i>
+                </form>
+                <div class="nav">
+                    <ul class="miniNav" style="display: none;">
+                        <li><a href="http://weblogina.com/about/">درباره ما</a></li>
+                        <li class="devider">•</li>
+                        <li><a href="http://weblogina.com/jobs/">مشاغل</a></li>
+                        <li class="devider">•</li>
+                        <li><a href="http://weblogina.com/advertisement/">تبلیغات</a></li>
+                        <li class="devider">•</li>
+                        <li><a href="http://weblogina.com/contact/">تماس با ما</a></li>
+                    </ul>
+                    <ul class="mainNav" style="">
+                        <li class="logo"><a href="http://weblogina.com/">وبلاگینا</a></li>
+                        <li class="current news">
+                            <a href="http://weblogina.com/news/"><span>اخبار</span></a>
+                            <ul class="dropdown-menu">
+                                <li><a href="http://weblogina.com/news/web/">اخبار وب جهان</a></li>
+                                <li><a href="http://weblogina.com/news/web-iran/">اخبار وب ایران</a></li>
+                                <li><a href="http://weblogina.com/news/smartphones-tablets/">تلفن‌های هوشمند و تبلت‌ها</a></li>
+                                <li><a href="http://weblogina.com/news/short-news/">اخبار کوتاه</a></li>
+                            </ul>
+                        </li>
+                        <li class=" reports"><a href="http://weblogina.com/report/"><span>گزارش</span></a></li>
+                        <li class=" interviews"><a href="http://weblogina.com/interview/"><span>مصاحبه</span></a></li>
+                        <li class=" articles">
+                            <a href="http://weblogina.com/article/"><span>مقاله</span></a>
+                            <ul class="dropdown-menu">
+                                <li><a href="http://weblogina.com/article/review/">نقد و بررسی</a></li>
+                                <li><a href="http://weblogina.com/article/training/">آموزشی</a></li>
+                                <li><a href="http://weblogina.com/article/webdesign/">طراحی وب</a></li>
+                            </ul>
+                        </li>
+                        <li class=" latest">
+                            <a href="http://weblogina.com/introduction/"><span>معرفی</span></a>
+                            <ul class="dropdown-menu">
+                                <li><a href="http://weblogina.com/introduction/website/">معرفی سایت</a></li>
+                                <li><a href="http://weblogina.com/introduction/application/">معرفی اپلیکیشن</a></li>
+                                <li><a href="http://weblogina.com/introduction/gadget/">معرفی گجت</a></li>
+                            </ul>
+                        </li>
+                        <li class=" reviews"><a href="http://weblogina.com/review/"><span>بررسی محصول</span></a></li>
+                        <li class=" podcast">
+                            <a href="http://weblogina.com/podcast/"><span>پادکست</span></a>
+                            <ul class="dropdown-menu">
+                                <li><a href="http://weblogina.com/podcast/radio24/">رادیو ۲۴</a></li>
+                            </ul>
+                        </li>
+                        <li class=" videos"><a href="http://weblogina.com/video/"><span>ویدیو</span></a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="container logoBar">
+            <div class="row">
+                <div class="span12 image-only">
+                    <a href="http://baaemail.com/" target="_blank">
+                        <img src="img/baaemail-ad-comin-soon-728-90-2.png" alt="باایمیل" width="728" height="90">
+                    </a>
+                </div>
+                <div class="span4 logo">
+                    <h1><a href="http://weblogina.com/">وبلاگینا</a></h1>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- >>> ????????????????????????????????????????????????? <<< -->
+    <section class="container wrapper" id="wrapper">
+        
+        <nav>
+            <ul class="mainNav">
+                <li class="logo"><a href="http://weblogina.com/">وبلاگینا</a></li>
+                <li class="current news">
+                    <a href="http://weblogina.com/news/"><span>اخبار</span></a>
+                    <ul class="dropdown-menu">
+                        <li><a href="http://weblogina.com/news/web/">اخبار وب جهان</a></li>
+                        <li><a href="http://weblogina.com/news/web-iran/">اخبار وب ایران</a></li>
+                        <li><a href="http://weblogina.com/news/smartphones-tablets/">تلفن‌های هوشمند و تبلت‌ها</a></li>
+                        <li><a href="http://weblogina.com/news/short-news/">اخبار کوتاه</a></li>
+                    </ul>
+                </li>
+                <li class=" reports"><a href="http://weblogina.com/report/"><span>گزارش</span></a></li>
+                <li class=" interviews"><a href="http://weblogina.com/interview/"><span>مصاحبه</span></a></li>
+                <li class=" articles">
+                    <a href="http://weblogina.com/article/"><span>مقاله</span></a>
+                    <ul class="dropdown-menu">
+                        <li><a href="http://weblogina.com/article/review/">نقد و بررسی</a></li>
+                        <li><a href="http://weblogina.com/article/training/">آموزشی</a></li>
+                        <li><a href="http://weblogina.com/article/webdesign/">طراحی وب</a></li>
+                    </ul>
+                </li>
+                <li class=" latest">
+                    <a href="http://weblogina.com/introduction/"><span>معرفی</span></a>
+                    <ul class="dropdown-menu">
+                        <li><a href="http://weblogina.com/introduction/website/">معرفی سایت</a></li>
+                        <li><a href="http://weblogina.com/introduction/application/">معرفی اپلیکیشن</a></li>
+                        <li><a href="http://weblogina.com/introduction/gadget/">معرفی گجت</a></li>
+                    </ul>
+                </li>
+                <li class=" reviews"><a href="http://weblogina.com/review/"><span>بررسی محصول</span></a></li>
+                <li class=" podcast">
+                    <a href="http://weblogina.com/podcast/"><span>پادکست</span></a>
+                    <ul class="dropdown-menu">
+                        <li><a href="http://weblogina.com/podcast/radio24/">رادیو ۲۴</a></li>
+                    </ul>
+                </li>
+                <li class=" videos"><a href="http://weblogina.com/video/"><span>ویدیو</span></a></li>
+            </ul>
+            <section class="social">
+                <a href="https://www.facebook.com/pages/Weblogina/175333789159666" class="facebook"><i class="foundicon-facebook"></i></a>
+                <a href="https://twitter.com/weblogina" class="twitter"><i class="foundicon-twitter"></i></a>
+                <a href="//plus.google.com/110198251256856743470" rel="publisher" class="gplus"><i class="foundicon-google-plus"></i></a>
+                <a href="http://feeds.weblogina.com/weblogina" class="rss"><i class="foundicon-rss"></i></a>
+            </section>
+        </nav>
+        
+        <section id="main" class="row">
+            
+            <section class="span10 content">
+                <div class="slider">
+                    <div class="big">
+                        <figure class="image-0" style="opacity: 1; display: none;">
+                            <a href="http://weblogina.com/report/startup-istanbul-2014/">
+                                <img alt="نگاهی به رویداد جهانی Startup Istanbul ترکیه" src="img/timthumb_startupistanbul-1.jpg">
+                            </a>
+                            <figcaption>
+                                <span>حضور نزدیک به ۱۰۰ تیم از کشورهای مختلف جهان</span>
+                                <a href="http://weblogina.com/report/startup-istanbul-2014/">
+                                    نگاهی به رویداد جهانی Startup Istanbul ترکیه
+                                </a>
+                            </figcaption>
+                        </figure>
+                        <figure class="image-1" style="display: none;">
+                            <a href="http://weblogina.com/article/when-google-met-wikileaks-book/">
+                                <img alt="زمانی که گوگل، ویکی‌لیکس را ملاقات کرد" src="img/timthumb_asanj.jpg">
+                            </a>
+                            <figcaption>
+                                <span>انتشار کتاب جدید جولیان آسانژ</span>
+                                <a href="http://weblogina.com/article/when-google-met-wikileaks-book/">
+                                    زمانی که گوگل، ویکی‌لیکس را ملاقات کرد
+                                </a>
+                            </figcaption>
+                        </figure>
+                        <figure class="image-2" style="display: none;">
+                            <a href="http://weblogina.com/news/three-biggest-internet-companies-in-iran/">
+                                <img alt="سه شرکت بزرگ اینترنتی در ایران از نگاه اکونومیست" src="img/timthumb_iran_flag_by_neda111-d5glh7k.jpg">
+                            </a>
+                            <figcaption>
+                                <span>دیجیکالا، کافه‌بازار و Anetwork</span>
+                                <a href="http://weblogina.com/news/three-biggest-internet-companies-in-iran/">
+                                    سه شرکت بزرگ اینترنتی در ایران از نگاه اکونومیست
+                                </a>
+                            </figcaption>
+                        </figure>
+                        <figure class="image-3" style="display: block;">
+                            <a href="http://weblogina.com/news/google-buys-songza/">
+                                <img alt="گوگل سرویس موسیقی Songza را از آن خود کرد" src="img/timthumb_songza-599.jpg">
+                            </a>
+                            <figcaption>
+                                <span></span>
+                                <a href="http://weblogina.com/news/google-buys-songza/">
+                                    گوگل سرویس موسیقی Songza را از آن خود کرد
+                                </a>
+                            </figcaption>
+                        </figure>
+                        <figure class="image-4" style="display: none;">
+                            <a href="http://weblogina.com/news/one-fifth-women-developing-world-countries-think-internet-use-inappropriate-them/">
+                                <img alt="یک پنجم زنان در کشورهای در حال توسعه فکر می‌کنند استفاده از اینترنت برای آن‌ها مناسب نیست" src="img/timthumb_women-in-d-c.jpg">
+                            </a>
+                            <figcaption>
+                                <span></span>
+                                <a href="http://weblogina.com/news/one-fifth-women-developing-world-countries-think-internet-use-inappropriate-them/">
+                                    یک پنجم زنان در کشورهای در حال توسعه فکر می‌کنند استفاده از اینترنت برای آن‌ها مناسب نیست
+                                </a>
+                            </figcaption>
+                        </figure>
+                        <figure class="image-5" style="display: none;">
+                            <a href="http://weblogina.com/article/what-your-email-style-reveals-about-your-personality/">
+                                <img alt="سبک نگارش ایمیل‌تان می‌تواند شخصیت شما را تعریف کند" src="img/timthumb_3031362-poster-p-1-3031362-work-smart-what-your-email-style-reveals-about-your-personality.jpg">
+                            </a>
+                            <figcaption>
+                                <span></span>
+                                <a href="http://weblogina.com/article/what-your-email-style-reveals-about-your-personality/">
+                                    سبک نگارش ایمیل‌تان می‌تواند شخصیت شما را تعریف کند
+                                </a>
+                            </figcaption>
+                        </figure>
+                        <figure class="image-6" style="display: none;">
+                            <a href="http://weblogina.com/article/net-neutrality/">
+                                <img alt="آیا پایان اینترنت نزدیک است؟" src="img/timthumb_1.png">
+                            </a>
+                            <figcaption>
+                                <span></span>
+                                <a href="http://weblogina.com/article/net-neutrality/">آیا پایان اینترنت نزدیک است؟</a>
+                            </figcaption>
+                        </figure>
+                        <figure class="image-7" style="display: none;">
+                            <a href="http://weblogina.com/article/hackathon/">
+                                <img alt="کیسه خواب، نوشابه انرژی‌زا و پیتزا" src="img/timthumb_hackathon.jpg"></a>
+                            <figcaption>
+                                <span>در هکتون‌ها شاهد چه چیزهایی هستیم؟</span>
+                                <a href="http://weblogina.com/article/hackathon/">کیسه خواب، نوشابه انرژی‌زا و پیتزا</a>
+                            </figcaption>
+                        </figure>
+                        <figure class="image-8" style="display: none;">
+                            <a href="http://weblogina.com/article/lets-teach-kids-to-code/">
+                                <img alt="بیخیال زبان و موسیقی، به کودکانمان کدنویسی بیاموزیم" src="img/timthumb_ap_code_2f.jpg">
+                            </a>
+                            <figcaption>
+                                <span></span>
+                                <a href="http://weblogina.com/article/lets-teach-kids-to-code/">
+                                    بیخیال زبان و موسیقی، به کودکانمان کدنویسی بیاموزیم
+                                </a>
+                            </figcaption>
+                        </figure>
+                    </div>
+                    
+                    <div class="thumbs">
+                        <div class="small thumb-0">
+                            <figure>
+                                <img alt="نگاهی به رویداد جهانی Startup Istanbul ترکیه" src="img/timthumb_startupistanbul-2.jpg" width="153" height="82">
+                                <span class="media"><i class="icon-pencil icon-white"></i></span>
+                            </figure>
+                        </div>
+                        <div class="small thumb-1">
+                            <figure>
+                                <img alt="زمانی که گوگل، ویکی‌لیکس را ملاقات کرد" src="img/timthumb_%D8%A2%D8%B3%D8%A7%D9%86%DA%98.jpg" width="153" height="82">
+                                <span class="media"><i class="icon-pencil icon-white"></i></span>
+                            </figure>
+                        </div>
+                        <div class="small thumb-2">
+                            <figure>
+                                <img alt="سه شرکت بزرگ اینترنتی در ایران از نگاه اکونومیست" src="img/timthumb_iran_flag_by_neda111-d5glh7k2.jpg" width="153" height="82">
+                                <span class="media"><i class="icon-pencil icon-white"></i></span>
+                            </figure>
+                        </div>
+                        <div class="small thumb-3">
+                            <figure>
+                                <img alt="گوگل سرویس موسیقی Songza را از آن خود کرد" src="img/timthumb_songza-5992.jpg" width="153" height="82">
+                                <span class="media"><i class="icon-pencil icon-white"></i></span>
+                            </figure>
+                        </div>
+                        <div class="small thumb-4">
+                            <figure>
+                                <img alt="یک پنجم زنان در کشورهای در حال توسعه فکر می‌کنند استفاده از اینترنت برای آن‌ها مناسب نیست" src="img/timthumb_women-in-d-c2.jpg" width="153" height="82">
+                                <span class="media"><i class="icon-pencil icon-white"></i></span>
+                            </figure>
+                        </div>
+                        <div class="small thumb-5">
+                            <figure>
+                                <img alt="سبک نگارش ایمیل‌تان می‌تواند شخصیت شما را تعریف کند" src="img/timthumb_3031362-poster-p-1-3031362-work-smart-what-your-email-style-reveals-about-your-personality2.jpg" width="153" height="82">
+                                <span class="media"><i class="icon-pencil icon-white"></i></span>
+                            </figure>
+                        </div>
+                        <div class="small thumb-6">
+                            <figure>
+                                <img alt="آیا پایان اینترنت نزدیک است؟" src="img/timthumb2.png" width="153" height="82">
+                                <span class="media"><i class="icon-pencil icon-white"></i></span>
+                            </figure>
+                        </div>
+                        <div class="small thumb-7">
+                            <figure>
+                                <img alt="کیسه خواب، نوشابه انرژی‌زا و پیتزا" src="img/timthumb_hackathon2.jpg" width="153" height="82">
+                                <span class="media"><i class="icon-pencil icon-white"></i></span>
+                            </figure>
+                        </div>
+                        <div class="small thumb-8">
+                            <figure>
+                                <img alt="بیخیال زبان و موسیقی، به کودکانمان کدنویسی بیاموزیم" src="img/timthumb_ap_code_2f2.jpg" width="153" height="82">
+                                <span class="media"><i class="icon-pencil icon-white"></i></span>
+                            </figure>
+                        </div>
+                        
+                        <div class="small">
+                            <figure>
+                                <img alt="نگاهی به رویداد جهانی Startup Istanbul ترکیه" src="img/timthumb_startupistanbul-12.jpg" width="153" height="82">
+                                <span class="media"><i class="icon-pencil icon-white"></i></span>
+                            </figure>
+                        </div>
+                        <div class="small">
+                        <figure>
+                            <img alt="زمانی که گوگل، ویکی‌لیکس را ملاقات کرد" src="img/timthumb_%D8%A2%D8%B3%D8%A7%D9%86%DA%982.jpg" width="153" height="82">
+                            <span class="media"><i class="icon-pencil icon-white"></i></span>
+                            </figure>
+                        </div>
+                        <div class="small">
+                            <figure>
+                                <img alt="سه شرکت بزرگ اینترنتی در ایران از نگاه اکونومیست" src="img/timthumb_iran_flag_by_neda111-d5glh7k3.jpg" width="153" height="82">
+                                <span class="media"><i class="icon-pencil icon-white"></i></span>
+                            </figure>
+                        </div>
+                    
+                    </div>
+                    <a class="next"></a>
+                </div>
+
+                <div class="tabbed">
+                    <ul>
+                        <li class="selected"><a href="/">تازه‌هــا</a></li>
+                        <li><a href="/popular/">محبوب‌تریــن</a></li>
+                        <li><a href="/commented/">پر بــحث‌ترین</a></li>
+                    </ul>
+                </div>
+
+                <section class="posts stacked">
+                    
+                    <article id="weblogina-entry-8368">
+                        <figure class="post-image">
+                            <a href="http://weblogina.com/news/bayan-contest-1393/">
+                                <img alt="مرحله اول مسابقات بین المللی برنامه نویسی بیان آغاز شد" src="img/timthumb_bayan-1393.jpg" width="190" height="110">
+                            </a>
+                        </figure>
+                        <div class="post-content">
+                            <h2>
+                                <a href="http://weblogina.com/news/bayan-contest-1393/" rel="bookmark">
+                                    مرحله اول مسابقات بین المللی برنامه نویسی بیان آغاز شد
+                                </a>
+                            </h2>
+                            <p class="info">
+                                نوشته
+                                <div class="hc-preview">
+                                    <a data-author="tanzad" class="author hc-name" href="#">
+                                        آرش زاد
+                                    </a>
+                                    <div class="hc-details" style="width: 300px; background: rgb(255, 255, 255);">
+                                        <img class="hc-pic" src="img/arash.zad.png">
+                                        <div class="author-bio">
+                                            <p>وبلاگ نویس آی‌تی، علاقه‌مند به مباحث فناوری، تا اندازه‌ای طراح وب و یک سری موارد دیگر!</p>
+                                            <span>
+                                                <a target="_blank" href="http://twitter.com/arashzd">
+                                                    <img src="img/twitter.png">
+                                                </a>
+                                                <a target="_blank" href="https://www.facebook.com/arash.zaad">
+                                                    <img src="img/facebook.png">
+                                                </a>
+                                                <a target="_blank" href="http://ir.linkedin.com/in/arashzaad">
+                                                    <img src="img/linkedin.png">
+                                                </a>
+                                            </span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <span>•</span> 17 مهر 1393
+                                <a rel="nofollow" href="http://weblogina.com/news/bayan-contest-1393/#comments">
+                                    <span>•</span> بدون نظر
+                                </a>
+                            </p>
+                            <div class="body">
+                                <p>سومین دوره مسابقات برنامه نویسی بیان که به صورت بین المللی برگزار می‌شود از امروز آغاز شده است. مرحله اول این دوره از مسابقات به صورت آنلاین برگزار می‌شود و برنامه نویسان ۷۲ ساعت برای حل سه سوال علمی این...</p>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article id="weblogina-entry-8367">
+                        <figure class="post-image">
+                            <a href="http://weblogina.com/article/salam-donya/">
+                                <img alt="شماره یکم سلام دنیا: ماهنامه تخصصی نرم‌افزارهای آزاد" src="img/timthumb%20(17).jpg" width="190" height="110">
+                            </a>
+                        </figure>
+                        <div class="post-content">
+                            <h2>
+                                <a href="http://weblogina.com/article/salam-donya/" rel="bookmark">
+                                    شماره یکم سلام دنیا: ماهنامه تخصصی نرم‌افزارهای آزاد
+                                </a>
+                            </h2>
+                            <p class="info">
+                                نوشته
+                                <div class="hc-preview">
+                                    <a data-author="saeed" class="author hc-name" href="#">سعید چوبانی</a>
+                                    <div class="hc-details" style="width: 300px; background: rgb(255, 255, 255);">
+                                        <img class="hc-pic" src="img/saeed.jpg">
+                                        <div class="author-bio">
+                                            <p>وبلاگ نویس حوزه وب و فناوری ایران</p>
+                                            <span>
+                                                <a target="_blank" href="https://twitter.com/saeed_choobani">
+                                                    <img src="img/twitter.png">
+                                                </a>
+                                                <a target="_blank" href="https://www.facebook.com/saeed.choobani">
+                                                    <img src="img/facebook.png">
+                                                </a>
+                                                <a target="_blank" href="http://ir.linkedin.com/in/saeedchoobani">
+                                                    <img src="img/linkedin.png">
+                                                </a>
+                                            </span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <span>•</span> 14 مهر 1393
+                                <a rel="nofollow" href="http://weblogina.com/article/salam-donya/#comments">
+                                    <span>•</span> ۱ دیدگاه
+                                </a>
+                            </p>
+                            <div class="body">
+                                <p>سلام دنیا ماهنامه تخصصی در حوزه نرم‌افزارهای آزاد است که از دل جامعه متن‌باز کشور بیرون آمده، ماهنامه‌ای که نه تنها مسئولیت نشر و تولید محتوا و دیگر زحمت‌هایش بر عهده خود جامعه متن‌باز است بلکه قطره قطره سرمایه‌گذاری انجام...</p>
+                            </div>
+                        </div>
+                    </article>
+            
+                    <article id="weblogina-entry-8366">
+                        <figure class="post-image">
+                            <a href="http://weblogina.com/news/google-voice-persian/">
+                                <img alt="گوگل قابلیت تشخیص گفتار فارسی را به اندروید اضافه کرد" src="img/timthumb_Screenshot_2014-10-03-14-10-44.png" width="190" height="110">
+                            </a>
+                        </figure>
+                        <div class="post-content">
+                            <h2>
+                                <a href="http://weblogina.com/news/google-voice-persian/" rel="bookmark">
+                                    گوگل قابلیت تشخیص گفتار فارسی را به اندروید اضافه کرد
+                                </a>
+                            </h2>
+                            <p class="info">
+                                نوشته
+                                <div class="hc-preview">
+                                    <a data-author="tanzad" class="author hc-name" href="#">آرش زاد</a>
+                                    <div class="hc-details" style="width: 300px; background: rgb(255, 255, 255);">
+                                        <img class="hc-pic" src="img/arash.zad (1).png">
+                                        <div class="author-bio">
+                                            <p>وبلاگ نویس آی‌تی، علاقه‌مند به مباحث فناوری، تا اندازه‌ای طراح وب و یک سری موارد دیگر!</p>
+                                            <span>
+                                                <a target="_blank" href="http://twitter.com/arashzd">
+                                                    <img src="img/twitter.png">
+                                                </a>
+                                                <a target="_blank" href="https://www.facebook.com/arash.zaad">
+                                                    <img src="img/facebook.png">
+                                                </a>
+                                                <a target="_blank" href="http://ir.linkedin.com/in/arashzaad">
+                                                    <img src="img/linkedin.png">
+                                                </a>
+                                            </span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <span>•</span> 11 مهر 1393
+                                <a rel="nofollow" href="http://weblogina.com/news/google-voice-persian/#comments">
+                                    <span>•</span> 18 دیدگاه
+                                </a>
+                            </p>
+                            <div class="body">
+                                <p>اگر از کاربران سیستم‌عامل اندروید باشید، از امروز می‌توانید به زبان فارسی با تلفن هوشمند خود صحبت کنید. گوگل به تازگی قابلیت تشخیص گفتار به زبان فارسی را به سیستم‌عامل خود اضافه کرده است. این ویژگی باعث می‌شود تا از...</p>
+                            </div>
+                        </div>
+                    </article>
+                    <article id="weblogina-entry-8365" class="top">
+                        <figure class="post-image">
+                            <a href="http://weblogina.com/report/startup-istanbul-2014/">
+                                <img alt="نگاهی به رویداد جهانی Startup Istanbul ترکیه" src="img/timthumb.jpg" width="190" height="110">
+                            </a>
+                            <figcaption>منتخب</figcaption>
+                        </figure>
+                        <div class="post-content">
+                            <h2>
+                                <a href="http://weblogina.com/report/startup-istanbul-2014/" rel="bookmark">
+                                    نگاهی به رویداد جهانی Startup Istanbul ترکیه
+                                </a>
+                            </h2>
+                            <p class="info">
+                                نوشته
+                                <div class="hc-preview">
+                                    <a data-author="maryam" class="author hc-name" href="#">مریم انصاری</a>
+                                    <div class="hc-details" style="width: 300px; background: rgb(255, 255, 255);">
+                                        <img class="hc-pic" src="img/maryam.jpg">
+                                        <div class="author-bio">
+                                            <p>ایده‌پرداز، مدیر پروژه کفشدوزک</p>
+                                            <span>
+                                                <a target="_blank" href="http://twitter.com/maryamansari_">
+                                                    <img src="img/twitter.png"></a>
+                                                <a target="_blank" href="https://www.facebook.com/maryamansari.90">
+                                                    <img src="img/facebook.png">
+                                                </a>
+                                                <a target="_blank" href="http://www.linkedin.com/in/maryamansari">
+                                                    <img src="img/linkedin.png">
+                                                </a>
+                                            </span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <span>•</span> 10 مهر 1393
+                                <a rel="nofollow" href="http://weblogina.com/report/startup-istanbul-2014/#comments">
+                                    <span>•</span> 6 دیدگاه
+                                </a>
+                            </p>
+                            <div class="body">
+                                <p>رویداد استارتاپ استانبول که از طرف شتابدهنده Etohum در کشور ترکیه برگزار می‌شود، امسال میزبان استارتاپ‌های مختلفی از سراسر دنیا بود. این رویداد در یک بازه سه روزه، فرایند انتخاب استارتاپ‌های برگزیده را از بین حدود ۱۰۰ تیم، به کمک داوران بین‌المللی انجام می‌دهد و در نهایت ۱۵ استارتاپ نهایی...</p>
+                            </div>
+                        </div>
+                    </article>
+                    <article id="weblogina-entry-8364">
+                        <figure class="post-image">
+                            <a href="http://weblogina.com/article/when-google-met-wikileaks-book/">
+                                <img alt="زمانی که گوگل، ویکی‌لیکس را ملاقات کرد" src="img/timthumb (1).jpg" width="190" height="110">
+                            </a>
+                        </figure>
+                        <div class="post-content">
+                            <h2>
+                                <a href="http://weblogina.com/article/when-google-met-wikileaks-book/" rel="bookmark">
+                                    زمانی که گوگل، ویکی‌لیکس را ملاقات کرد
+                                </a>
+                            </h2>
+                            <p class="info">
+                                نوشته
+                                <div class="hc-preview">
+                                    <a data-author="saeed" class="author hc-name" href="#">سعید چوبانی</a>
+                                    <div class="hc-details" style="width: 300px; background: rgb(255, 255, 255);">
+                                        <img class="hc-pic" src="img/saeed (1).jpg">
+                                        <div class="author-bio">
+                                            <p>وبلاگ نویس حوزه وب و فناوری ایران</p>
+                                            <span>
+                                                <a target="_blank" href="https://twitter.com/saeed_choobani">
+                                                    <img src="img/twitter.png">
+                                                </a>
+                                                <a target="_blank" href="https://www.facebook.com/saeed.choobani">
+                                                    <img src="img/facebook.png">
+                                                </a>
+                                                <a target="_blank" href="http://ir.linkedin.com/in/saeedchoobani">
+                                                    <img src="linkedin.png">
+                                                </a>
+                                            </span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <span>•</span> 03 مهر 1393
+                                <a rel="nofollow" href="http://weblogina.com/article/when-google-met-wikileaks-book/#comments">
+                                    <span>•</span> 2 دیدگاه
+                                </a>
+                            </p>
+                            <div class="body">
+                                <p>در ماه ژوئن سال ۲۰۱۱، جولیان آسانژ مهمانی ناخوانده داشت: اریک اشمیت، مدیر وقت گوگل از آمریکا به دیدن مردی آمده بود که در حبس خانگی به سر می‌برد.&nbsp; برای ساعت‌ها رهبر محصور مشهورترین انتشارات آنلاین جهان که با انتشار واقعیت‌های تلخی از چهره سیاست‌های حاکم، گرد و خاک بسیاری...</p>
+                            </div>
+                        </div>
+                    </article>
+                    <article id="weblogina-entry-8363">
+                        <figure class="post-image">
+                            <a href="http://weblogina.com/news/irancell-3g/">
+                                <img alt="نسل ۳ و ۴ شبکه تلفن همراه ایرانسل رسما راه اندازی شد" src="img/timthumb%20(2).jpg" width="190" height="110">
+                            </a>
+                        </figure>
+                        <div class="post-content">
+                            <h2>
+                                <a href="http://weblogina.com/news/irancell-3g/" rel="bookmark">
+                                    نسل ۳ و ۴ شبکه تلفن همراه ایرانسل رسما راه اندازی شد
+                                </a>
+                            </h2>
+                            <p class="info">
+                                نوشته
+                                <div class="hc-preview">
+                                    <a data-author="tanzad" class="author hc-name" href="#">آرش زاد</a>
+                                    <div class="hc-details" style="width: 300px; background: rgb(255, 255, 255);">
+                                        <img class="hc-pic" src="img/arash.zad%20(2).png">
+                                        <div class="author-bio">
+                                            <p>وبلاگ نویس آی‌تی، علاقه‌مند به مباحث فناوری، تا اندازه‌ای طراح وب و یک سری موارد دیگر!</p>
+                                            <span>
+                                                <a target="_blank" href="http://twitter.com/arashzd">
+                                                    <img src="img/twitter.png">
+                                                </a>
+                                                <a target="_blank" href="https://www.facebook.com/arash.zaad">
+                                                    <img src="img/facebook.png"></a>
+                                                <a target="_blank" href="http://ir.linkedin.com/in/arashzaad">
+                                                    <img src="img/linkedin.png">
+                                                </a>
+                                            </span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <span>•</span> 05 شهريور 1393
+                                <a rel="nofollow" href="http://weblogina.com/news/irancell-3g/#comments">
+                                    <span>•</span> 9 دیدگاه</a>
+                            </p>
+                            <div class="body">
+                                <p>همانطور که مطلع هستید، دو اپراتور ایرانسل و همراه اول از هفته‌های گذشته مشغول راه‌اندازی آزمایشی شبکه نسل ۳ برای کاربران خود بوده‌اند. طی این بازه، مشترکین این اپراتورها در برخی مناطق می‌توانستند از خدمات اینترنت پر سرعت نسل جدید...</p>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article id="weblogina-entry-8362">
+                        <figure class="post-image">
+                            <a href="http://weblogina.com/article/infographic-iran-women/">
+                                <img alt="اینفوگرافیک: وضعیت شغلی زنان در کشور ایران" src="img/timthumb.png" width="190" height="110">
+                            </a>
+                        </figure>
+                        <div class="post-content">
+                            <h2>
+                                <a href="http://weblogina.com/article/infographic-iran-women/" rel="bookmark">
+                                    اینفوگرافیک: وضعیت شغلی زنان در کشور ایران</a>
+                            </h2>
+                            <p class="info">
+                                نوشته
+                                <div class="hc-preview">
+                                    <a data-author="saeed" class="author hc-name" href="#">سعید چوبانی</a>
+                                    <div class="hc-details" style="width: 300px; background: rgb(255, 255, 255);">
+                                        <img class="hc-pic" src="img/saeed%20(2).jpg">
+                                        <div class="author-bio">
+                                            <p>وبلاگ نویس حوزه وب و فناوری ایران</p>
+                                            <span>
+                                                <a target="_blank" href="https://twitter.com/saeed_choobani">
+                                                    <img src="img/twitter.png">
+                                                </a>
+                                                <a target="_blank" href="https://www.facebook.com/saeed.choobani">
+                                                    <img src="img/facebook.png">
+                                                </a>
+                                                <a target="_blank" href="http://ir.linkedin.com/in/saeedchoobani">
+                                                    <img src="img/linkedin.png">
+                                                </a>
+                                            </span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <span>•</span> 04 شهريور 1393
+                                <a rel="nofollow" href="http://weblogina.com/article/infographic-iran-women/#comments">
+                                    <span>•</span> 12 دیدگاه
+                                </a>
+                            </p>
+                            <div class="body">
+                                <p>کانون کارآفرینی ایران، به تازگی اینفوگرافی را منتشر کرده است که اطلاعات جالبی در رابطه با &nbsp;وضعیت شغلی زنان در کشورمان ارائه می‌دهد. این آمار به خوبی نشان می‌دهد که علی‌رغم اینکه کرسی‌های صندلی دانشگاه بیشتر در اختیار زنان است، ولی فقط ۱۳ درصد از نیروی کار متخصص، زنان هستند....</p>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article id="weblogina-entry-8360">
+                        <figure class="post-image">
+                            <a href="http://weblogina.com/article/failcon/">
+                                <img alt="شکست‌های میلیون دلاری" src="img/timthumb%20(3).jpg" width="190" height="110">
+                            </a>
+                        </figure>
+                        <div class="post-content">
+                            <h2>
+                                <a href="http://weblogina.com/article/failcon/" rel="bookmark">شکست‌های میلیون دلاری</a>
+                            </h2>
+                            <p class="info">
+                                نوشته
+                                <div class="hc-preview">
+                                    <a data-author="saeed" class="author hc-name" href="#">سعید چوبانی</a>
+                                    <div class="hc-details" style="width: 300px; background: rgb(255, 255, 255);">
+                                        <img class="hc-pic" src="img/saeed%20(3).jpg">
+                                        <div class="author-bio">
+                                            <p>وبلاگ نویس حوزه وب و فناوری ایران</p>
+                                            <span>
+                                                <a target="_blank" href="https://twitter.com/saeed_choobani">
+                                                    <img src="img/twitter.png">
+                                                </a>
+                                                <a target="_blank" href="https://www.facebook.com/saeed.choobani">
+                                                    <img src="img/facebook.png">
+                                                </a>
+                                                <a target="_blank" href="http://ir.linkedin.com/in/saeedchoobani">
+                                                    <img src="img/linkedin.png">
+                                                </a>
+                                            </span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <span>•</span> 19 مرداد 1393
+                                <a rel="nofollow" href="http://weblogina.com/article/failcon/#comments">
+                                    <span>•</span> 14 دیدگاه
+                                </a>
+                            </p>
+                            <div class="body">
+                                <p>روزگاری که دایی بزرگتر من شکست چند صد میلیونی در کسب و کار جدیدش را تجربه می‌کرد، برای هیچ یک از اعضای خانواده ما فراموش شدنی نیست. ولی موضوعی که هرگز از حافظه من پاک نمی‌شود، حرفی بود که موقع خاموش کردن ته سیگار در بالکن خانه‌اشان به من گفت:...</p>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article id="weblogina-entry-8359">
+                        <figure class="post-image">
+                            <a href="http://weblogina.com/news/zconf/">
+                                <img alt="پنجمین همایش سراسری نرم‌افزارهای آزاد/متن‌باز در زنجان برگزار می‌شود" src="img/timthumb%20(4).jpg" width="190" height="110">
+                            </a>
+                        </figure>
+                        <div class="post-content">
+                            <h2>
+                                <a href="http://weblogina.com/news/zconf/" rel="bookmark">
+                                    پنجمین همایش سراسری نرم‌افزارهای آزاد/متن‌باز در زنجان برگزار می‌شود
+                                </a>
+                            </h2>
+                            <p class="info">
+                                نوشته
+                                <div class="hc-preview">
+                                    <a data-author="saeed" class="author hc-name" href="#">سعید چوبانی</a>
+                                    <div class="hc-details" style="width: 300px; background: rgb(255, 255, 255);">
+                                        <img class="hc-pic" src="img/saeed%20(4).jpg">
+                                        <div class="author-bio">
+                                            <p>وبلاگ نویس حوزه وب و فناوری ایران</p>
+                                            <span>
+                                                <a target="_blank" href="https://twitter.com/saeed_choobani">
+                                                    <img src="img/twitter.png">
+                                                </a>
+                                                <a target="_blank" href="https://www.facebook.com/saeed.choobani">
+                                                    <img src="img/facebook.png">
+                                                </a>
+                                                <a target="_blank" href="http://ir.linkedin.com/in/saeedchoobani">
+                                                    <img src="img/linkedin.png">
+                                                </a>
+                                            </span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <span>•</span> 29 تير 1393
+                                <a rel="nofollow" href="http://weblogina.com/news/zconf/#comments">
+                                    <span>•</span> 5 دیدگاه
+                                </a>
+                            </p>
+                            <div class="body">
+                                <p>نرم افزارهای آزاد/متن باز به نرم افزارهایی گفته می‌شود که برپایه اعتماد به جامعه کاربری و استفاده کنندگان بنا نهاده شده و همواره تلاش دارد تا با استفاده از ظرفیت بسیار بالای کاربرانش، خود را ارتقا بخشد. به همین دلیل...</p>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article id="weblogina-entry-8357">
+                        <figure class="post-image">
+                            <a href="http://weblogina.com/article/trisquel-free-software-foundation/">
+                                <img alt="Trisquel فرزند خلف بنیاد نرم‌افزار آزاد" src="img/timthumb%20(5).jpg" width="190" height="110">
+                            </a>
+                        </figure>
+                        <div class="post-content">
+                            <h2>
+                                <a href="http://weblogina.com/article/trisquel-free-software-foundation/" rel="bookmark">
+                                    Trisquel فرزند خلف بنیاد نرم‌افزار آزاد
+                                </a>
+                            </h2>
+                            <p class="info">
+                                نوشته
+                                <div class="hc-preview">
+                                    <a data-author="saeed" class="author hc-name" href="#">سعید چوبانی</a>
+                                    <div class="hc-details" style="width: 300px; background: rgb(255, 255, 255);">
+                                        <img class="hc-pic" src="img/saeed%20(5).jpg">
+                                        <div class="author-bio">
+                                            <p>وبلاگ نویس حوزه وب و فناوری ایران</p>
+                                            <span>
+                                                <a target="_blank" href="https://twitter.com/saeed_choobani">
+                                                    <img src="img/twitter.png">
+                                                </a>
+                                                <a target="_blank" href="https://www.facebook.com/saeed.choobani">
+                                                    <img src="img/facebook.png">
+                                                </a>
+                                                <a target="_blank" href="http://ir.linkedin.com/in/saeedchoobani">
+                                                    <img src="img/linkedin.png">
+                                                </a>
+                                            </span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <span>•</span> 19 تير 1393
+                                <a rel="nofollow" href="http://weblogina.com/article/trisquel-free-software-foundation/#comments">
+                                    <span>•</span> 4 دیدگاه
+                                </a>
+                            </p>
+                            <div class="body">
+                                <p>استفاده از واژه آزادی کار سختی است. نه اینکه ترس داشته باشد، بلکه سخت است. آنقدر به غلط از آن استفاده کرده‌ایم که معنای واقعی‌اش را از دست داده و دیگر چیزی جز یک توهم از آن&nbsp;باقی نمانده است. شاید فرهنگ و جامعه متن‌باز هم صرفن توهمی از آزادی برای...</p>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article id="weblogina-entry-8358">
+                        <figure class="post-image">
+                            <a href="http://weblogina.com/news/three-biggest-internet-companies-in-iran/">
+                                <img alt="سه شرکت بزرگ اینترنتی در ایران از نگاه اکونومیست" src="img/timthumb%20(6).jpg" width="190" height="110">
+                            </a>
+                        </figure>
+                        <div class="post-content">
+                            <h2>
+                                <a href="http://weblogina.com/news/three-biggest-internet-companies-in-iran/" rel="bookmark">
+                                    سه شرکت بزرگ اینترنتی در ایران از نگاه اکونومیست
+                                </a>
+                            </h2>
+                            <p class="info">
+                                نوشته
+                                <div class="hc-preview">
+                                    <a data-author="tanzad" class="author hc-name" href="#">آرش زاد</a>
+                                    <div class="hc-details" style="width: 300px; background: rgb(255, 255, 255);">
+                                        <img class="hc-pic" src="img/arash.zad.png">
+                                        <div class="author-bio">
+                                            <p>وبلاگ نویس آی‌تی، علاقه‌مند به مباحث فناوری، تا اندازه‌ای طراح وب و یک سری موارد دیگر!</p>
+                                            <span>
+                                                <a target="_blank" href="http://twitter.com/arashzd">
+                                                    <img src="/static/img/social/twitter.png">
+                                                </a>
+                                                <a target="_blank" href="https://www.facebook.com/arash.zaad">
+                                                    <img src="/static/img/social/facebook.png">
+                                                </a>
+                                                <a target="_blank" href="http://ir.linkedin.com/in/arashzaad">
+                                                    <img src="/static/img/social/linkedin.png">
+                                                </a>
+                                            </span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <span>•</span> 17 تير 1393
+                                <a rel="nofollow" href="http://weblogina.com/news/three-biggest-internet-companies-in-iran/#comments">
+                                    <span>•</span> 34 دیدگاه
+                                </a>
+                            </p>
+                            <div class="body">
+                                <p>وبسایت هفته‌نامه معروف اکونومیست در گزارشی که به تازگی منتشر کرده است، سه شرکت بزرگ در حوزه اینترنت در کشورهای مختلف دنیا را روی یک نمودار به تصویر کشیده است. این نمودار که بر پایه اطلاعات مجموعه World Startup Report...</p>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article id="weblogina-entry-8356">
+                        <figure class="post-image">
+                            <a href="http://weblogina.com/news/google-buys-songza/">
+                                <img alt="گوگل سرویس موسیقی Songza را از آن خود کرد" src="img/timthumb%20(7).jpg" width="190" height="110">
+                            </a>
+                        </figure>
+                        <div class="post-content">
+                            <h2>
+                                <a href="http://weblogina.com/news/google-buys-songza/" rel="bookmark">
+                                    گوگل سرویس موسیقی Songza را از آن خود کرد
+                                </a>
+                            </h2>
+                            <p class="info">
+                                نوشته
+                                <div class="hc-preview">
+                                    <a data-author="tanzad" class="author hc-name" href="#">آرش زاد</a>
+                                    <div class="hc-details" style="width: 300px; background: rgb(255, 255, 255);">
+                                        <img class="hc-pic" src="img/arash.zad.png">
+                                        <div class="author-bio">
+                                            <p>وبلاگ نویس آی‌تی، علاقه‌مند به مباحث فناوری، تا اندازه‌ای طراح وب و یک سری موارد دیگر!</p>
+                                            <span>
+                                                <a target="_blank" href="http://twitter.com/arashzd">
+                                                    <img src="img/twitter.png">
+                                                </a>
+                                                <a target="_blank" href="https://www.facebook.com/arash.zaad">
+                                                    <img src="img/facebook.png">
+                                                </a>
+                                                <a target="_blank" href="http://ir.linkedin.com/in/arashzaad">
+                                                    <img src="/img/linkedin.png">
+                                                </a>
+                                            </span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <span>•</span> 11 تير 1393
+                                <a rel="nofollow" href="http://weblogina.com/news/google-buys-songza/#comments">
+                                    <span>•</span> 3 دیدگاه
+                                </a>
+                            </p>
+                            <div class="body">
+                                <p>سرویس موسیقی Songza که به دلیل امکان انتخاب پلی‌لیست‌های مختلف موسیقی در بین کاربران معروف است، لحظاتی پیش اعلام کرد که به جمع دارایی‌های گوگل اضافه شده است. این سرویس ضمن اعلام این خبر در وبلاگ خود گفته است که در حال حاضر هیچ برنامه‌ای برای تغییر ندارد و تنها...</p>
+                            </div>
+                        </div>
+                    </article>
+
+                </section>
+ 
+                <section class="pages">
+                    <a rel="next" href="/page/2" class="next">نوشته‌های قدیمی‌تر <i class="icon-chevron-left"></i></a>
+                </section>
+
+                <section class="mini-slider">
+                    <section class="items">
+                        
+                        <figure>
+                            <img alt="گوگل قابلیت تشخیص گفتار فارسی را به اندروید اضافه کرد" src="img/timthumb%20(1).png">
+                            <figcaption>
+                                <a href="http://weblogina.com/news/google-voice-persian/">
+                                    گوگل قابلیت تشخیص گفتار فارسی را به ان...
+                                </a>
+                                <i class="google"></i>
+                            </figcaption>
+                        </figure>
+                        
+                        <figure>
+                            <img alt="گوگل سرویس موسیقی Songza را از آن خود کرد" src="img/timthumb%20(8).jpg">
+                            <figcaption>
+                                <a href="http://weblogina.com/news/google-buys-songza/">
+                                    گوگل سرویس موسیقی Songza را از آن خود ...
+                                </a>
+                                <i class="google"></i>
+                            </figcaption>
+                        </figure>
+                        
+                        <figure>
+                            <img alt="گوگل به فعالیت اورکات پایان می‌دهد" src="img/timthumb%20(9).jpg">
+                            <figcaption>
+                                <a href="http://weblogina.com/news/google-shutting-orkut-social-network-september-30/">
+                                    گوگل به فعالیت اورکات پایان می‌دهد
+                                </a>
+                                <i class="google"></i>
+                            </figcaption>
+                        </figure>
+                        
+                        <figure>
+                            <img alt="تبلیغات اپل در سال‌های اولیه شکل گرفتنش" src="img/timthumb%20(10).jpg">
+                            <figcaption>
+                                <a href="http://weblogina.com/article/apple-old-time-ads/">
+                                    تبلیغات اپل در سال‌های اولیه شکل گرفتن...
+                                </a>
+                                <i class="apple"></i>
+                            </figcaption>
+                        </figure>
+                        
+                        <figure>
+                            <img alt="ایرانسل مسابقه برنامه‌نویس موبایل برگزار می‌کند" src="img/timthumb%20(11).jpg">
+                            <figcaption>
+                                <a href="http://weblogina.com/news/irancell-icma/">
+                                    ایرانسل مسابقه برنامه‌نویس موبایل برگز...
+                                </a>
+                                <i class="irancell"></i>
+                            </figcaption>
+                        </figure>
+                        
+                    </section>
+                </section>
+ 
+                <div class="tabbed">
+                    <ul>
+                        <li class="single">مقالات منتخب</li>
+                    </ul>
+                </div>
+
+                <section class="posts stacked grid">
+                    <section class="grid-row">
+
+                        <article id="weblogina-entry-8367">
+                            <figure class="post-image">
+                                <a href="http://weblogina.com/article/salam-donya/">
+                                    <img alt="شماره یکم سلام دنیا: ماهنامه تخصصی نرم‌افزارهای آزاد" src="img/timthumb%20(12).jpg" width="153" height="82">
+                                </a>
+                            </figure>
+                            <div class="post-content">
+                                <h2>
+                                    <a href="http://weblogina.com/article/salam-donya/" rel="bookmark">
+                                        شماره یکم سلام دنیا: ماهنامه تخصصی نرم‌افزارهای آزاد
+                                    </a>
+                                </h2>
+                                <div class="body">سلام دنیا ماهنامه تخصصی در حوزه نرم‌افزارهای آزاد است که از دل جامعه...</div>
+                            </div>
+                        </article>
+                        
+                        <article id="weblogina-entry-8364">
+                            <figure class="post-image">
+                                <a href="http://weblogina.com/article/when-google-met-wikileaks-book/">
+                                    <img alt="زمانی که گوگل، ویکی‌لیکس را ملاقات کرد" src="img/timthumb%20(13).jpg" width="153" height="82">
+                                </a>
+                            </figure>
+                            <div class="post-content">
+                                <h2>
+                                    <a href="http://weblogina.com/article/when-google-met-wikileaks-book/" rel="bookmark">
+                                        زمانی که گوگل، ویکی‌لیکس را ملاقات کرد
+                                    </a>
+                                </h2>
+                                <div class="body">در ماه ژوئن سال ۲۰۱۱، جولیان آسانژ مهمانی ناخوانده داشت: اریک اشمیت، مدیر...</div>
+                            </div>
+                        </article>
+                        
+                        <article id="weblogina-entry-8362">
+                            <figure class="post-image">
+                                <a href="http://weblogina.com/article/infographic-iran-women/">
+                                    <img alt="اینفوگرافیک: وضعیت شغلی زنان در کشور ایران" src="img/timthumb%20(2).png" width="153" height="82">
+                                </a>
+                            </figure>
+                            <div class="post-content">
+                                <h2>
+                                    <a href="http://weblogina.com/article/infographic-iran-women/" rel="bookmark">
+                                        اینفوگرافیک: وضعیت شغلی زنان در کشور ایران
+                                    </a>
+                                </h2>
+                                <div class="body">کانون کارآفرینی ایران، به تازگی اینفوگرافی را منتشر کرده است که اطلاعات جالبی...</div>
+                            </div>
+                        </article>
+
+                    </section>
+
+                    <section class="grid-row">
+
+                        <article id="weblogina-entry-8360">
+                            <figure class="post-image">
+                                <a href="http://weblogina.com/article/failcon/">
+                                    <img alt="شکست‌های میلیون دلاری" src="img/timthumb%20(14).jpg" width="153" height="82">
+                                </a>
+                            </figure>
+                            <div class="post-content">
+                                <h2>
+                                    <a href="http://weblogina.com/article/failcon/" rel="bookmark">
+                                        شکست‌های میلیون دلاری
+                                    </a>
+                                </h2>
+
+                                <div class="body">روزگاری که دایی بزرگتر من شکست چند صد میلیونی در کسب و کار...</div>
+                            </div>
+                        </article>
+
+                        <article id="weblogina-entry-8357">
+                            <figure class="post-image">
+                                <a href="http://weblogina.com/article/trisquel-free-software-foundation/">
+                                    <img alt="Trisquel فرزند خلف بنیاد نرم‌افزار آزاد" src="img/timthumb%20(15).jpg" width="153" height="82">
+                                </a>
+                            </figure>
+                            <div class="post-content">
+                                <h2>
+                                    <a href="http://weblogina.com/article/trisquel-free-software-foundation/" rel="bookmark">
+                                        Trisquel فرزند خلف بنیاد نرم‌افزار آزاد
+                                    </a>
+                                </h2>
+                                <div class="body">استفاده از واژه آزادی کار سختی است. نه اینکه ترس داشته باشد، بلکه...</div>
+                            </div>
+                        </article>
+                        
+                        <article id="weblogina-entry-8353">
+                            <figure class="post-image">
+                                <a href="http://weblogina.com/article/what-your-email-style-reveals-about-your-personality/">
+                                    <img alt="سبک نگارش ایمیل‌تان می‌تواند شخصیت شما را تعریف کند" src="img/timthumb%20(16).jpg" width="153" height="82">
+                                </a>
+                            </figure>
+                            <div class="post-content">
+                                <h2>
+                                    <a href="http://weblogina.com/article/what-your-email-style-reveals-about-your-personality/" rel="bookmark">
+                                        سبک نگارش ایمیل‌تان می‌تواند شخصیت شما را تعریف کند
+                                    </a>
+                                </h2>
+                                <div class="body">اگر در حوزه فناوری فعالیت می‌کنید، احتمالا بخش زیادی از ارتباطات کاری‌تان از...</div>
+                            </div>
+                        </article>
+
+                    </section>
+
+                </section>
+
+            </section>
+
+            <aside class="span6 sidebar">
+
+                <div class="box image-only">
+                    <a href="http://weblogina.com/introduction/weblogina-google-currents/">
+                        <img src="img/weblogina-currents-banner.jpg">
+                    </a>
+                </div>
+
+                <!--
+                <div class="box image-only">
+                    <script type="text/javascript"> 
+		              var clickyab_ad = clickyab_ad || []; 
+		              clickyab_ad['id'] = 7361409386712; 
+		              clickyab_ad['domain'] = 'weblogina.com'; 
+		              clickyab_ad['slot'] = 54383528213;
+		              clickyab_ad['width'] = 300;
+		              clickyab_ad['height'] = 250;
+	               </script>
+
+                    <script type="text/javascript" src="http://a.clickyab.com/show.js"></script>
+                    
+                    <iframe name="clickyab_ads_frame" width="300" height="250" frameborder="0" src="http://a.clickyab.com/ads/?a=7361409386712&amp;width=300&amp;height=250&amp;slot=54383528213&amp;domainname=weblogina.com&amp;loc=http%3A%2F%2Fweblogina.com%2F&amp;ref=http%3A%2F%2Felearn.buqaen.ac.ir%2Fmod%2Fpage%2Fview.php%3Fid%3D55" marginwidth="0" marginheight="0" vspace="0" hspace="0" allowtransparency="true" scrolling="no" style="background: #FFF url(http://static.clickyab.com/img/clickyab-wait-to-load.png) no-repeat center;"></iframe>
+
+                </div>
+                -->
+
+                <div class="box socialBox has-menu">
+                    <h4><span>مشترک وبلاگینا شوید</span></h4>
+                    <div class="body">
+                        <div class="slide feed active">
+                            <form action="http://feedburner.google.com/fb/a/mailverify" method="post" target="popupwindow" onsubmit="window.open('http://feedburner.google.com/fb/a/mailverify?uri=weblogina', 'popupwindow', 'scrollbars=yes,width=550,height=520');return true">
+                                <input required="" aria-required="true" type="email" name="email" placeholder="Email Address…">
+                                <input type="hidden" value="weblogina" name="uri">
+                                <input type="hidden" name="loc" value="en_US">
+                                <button type="submit"><i class="icon-fire icon-white"></i>اشتراک</button>
+                            </form>
+
+                            <div class="devider">
+                                <span>یا</span>
+                                <hr>
+                            </div>
+
+                            <p>
+                                <a href="http://feeds.weblogina.com/weblogina">
+                                    <i class="icon-star"></i>
+                                        به جمع <span>۱۱۰۰۰</span> خواننده وبلاگینا بپیوندید.
+                                </a>
+                            </p>
+                        </div>
+                    </div>
+
+                    <ul class="menu">
+                        <li class="selected"><a href="#feed" class="feed">Feed</a></li>
+                    </ul>
+                </div>
+
+                <div class="box has-menu">
+                    <h4><span>محبوب‌تریــن</span></h4>
+                    <div class="body">
+                        <div class="slide popular active">
+                            <ol>
+                                <li>
+                                    <a href="http://weblogina.com/article/when-google-met-wikileaks-book/">
+                                        <img alt="زمانی که گوگل، ویکی‌لیکس را ملاقات کرد" src="img/timthumb%20(18).jpg" width="63" height="45">
+                                        <span>زمانی که گوگل، ویکی‌لیکس را ملاقات کرد</span><em>31 شهریور 1393</em>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="http://weblogina.com/report/startup-istanbul-2014/">
+                                        <img alt="نگاهی به رویداد جهانی Startup Istanbul ترکیه" src="img/timthumb%20(19).jpg" width="63" height="45">
+                                        <span>نگاهی به رویداد جهانی Startup Istanbul ترکیه</span><em>10 مهر 1393</em>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="http://weblogina.com/news/google-voice-persian/">
+                                        <img alt="گوگل قابلیت تشخیص گفتار فارسی را به اندروید اضافه کرد" src="img/timthumb%20(3).png" width="63" height="45">
+                                        <span>گوگل قابلیت تشخیص گفتار فارسی را به اندروید اضافه کرد</span><em>11 مهر 1393</em>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="http://weblogina.com/article/salam-donya/">
+                                        <img alt="شماره یکم سلام دنیا: ماهنامه تخصصی نرم‌افزارهای آزاد" src="img/timthumb%20(20).jpg" width="63" height="45">
+                                        <span>شماره یکم سلام دنیا: ماهنامه تخصصی نرم‌افزارهای آزاد</span><em>12 مهر 1393</em>
+                                    </a>
+                                </li>
+                            </ol>
+                        </div>
+                        <div class="slide entries">
+                            <ol>
+                                <li><a href="http://weblogina.com/article/failcon/" rel="nofollow">
+                                    <img alt="شکست‌های میلیون دلاری" src="img/timthumb%20(21).jpg" width="63" height="45">
+                                    <span>شکست‌های میلیون دلاری</span><em>18 مرداد 1393</em>
+                                    </a>
+                                </li>
+                                <li><a href="http://weblogina.com/news/zconf/" rel="nofollow">
+                                    <img alt="پنجمین همایش سراسری نرم‌افزارهای آزاد/متن‌باز در زنجان برگزار می‌شود" src="img/timthumb%20(22).jpg" width="63" height="45">
+                                    <span>پنجمین همایش سراسری نرم‌افزارهای آزاد/متن‌باز در زنجان برگزار می‌شود</span><em>27 تیر 1393</em>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="http://weblogina.com/article/trisquel-free-software-foundation/" rel="nofollow">
+                                        <img alt="Trisquel فرزند خلف بنیاد نرم‌افزار آزاد" src="img/timthumb%20(23).jpg" width="63" height="45">
+<span>Trisquel فرزند خلف بنیاد نرم‌افزار آزاد</span><em>16 تیر 1393</em>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="http://weblogina.com/news/three-biggest-internet-companies-in-iran/" rel="nofollow">
+                                        <img alt="سه شرکت بزرگ اینترنتی در ایران از نگاه اکونومیست" src="img/timthumb%20(24).jpg" width="63" height="45">
+                                        <span>سه شرکت بزرگ اینترنتی در ایران از نگاه اکونومیست</span><em>17 تیر 1393</em>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="http://weblogina.com/news/google-buys-songza/" rel="nofollow">
+                                        <img alt="گوگل سرویس موسیقی Songza را از آن خود کرد" src="img/timthumb%20(25).jpg" width="63" height="45">
+                                        <span>گوگل سرویس موسیقی Songza را از آن خود کرد</span><em>11 تیر 1393</em>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="http://weblogina.com/news/google-shutting-orkut-social-network-september-30/" rel="nofollow">
+                                        <img alt="گوگل به فعالیت اورکات پایان می‌دهد" src="img/timthumb%20(26).jpg" width="63" height="45">
+                                        <span>گوگل به فعالیت اورکات پایان می‌دهد</span><em>9 تیر 1393</em>
+                                    </a>
+                                </li>
+                            </ol>
+                        </div>
+
+                        <div class="slide tags">
+                            <div class="tag-cloud">
+                                <span class="tag rank-1"><a href="/tag/گوگل" rel="tag">گوگل</a></span>
+                                <span class="tag rank-2"><a href="/tag/وبلاگینا" rel="tag">وبلاگینا</a></span>
+                                <span class="tag rank-2"><a href="/tag/پادکست" rel="tag">پادکست</a></span>
+                                <span class="tag rank-2"><a href="/tag/رادیو" rel="tag">رادیو</a></span>
+                                <span class="tag rank-2"><a href="/tag/برنامه" rel="tag">برنامه</a></span>
+                                <span class="tag rank-2"><a href="/tag/اپل" rel="tag">اپل</a></span>
+                                <span class="tag rank-2"><a href="/tag/رادیو ۲۴" rel="tag">رادیو ۲۴</a></span>
+                                <span class="tag rank-2"><a href="/tag/مایکروسافت" rel="tag">مایکروسافت</a></span>
+                                <span class="tag rank-2"><a href="/tag/اندروید" rel="tag">اندروید</a></span>
+                                <span class="tag rank-3"><a href="/tag/سامسونگ" rel="tag">سامسونگ</a></span>
+                                <span class="tag rank-3"><a href="/tag/تبلت" rel="tag">تبلت</a></span>
+                                <span class="tag rank-3"><a href="/tag/گوشی" rel="tag">گوشی</a></span>
+                                <span class="tag rank-3"><a href="/tag/اپلیکیشن" rel="tag">اپلیکیشن</a></span>
+                                <span class="tag rank-3"><a href="/tag/تلفن هوشمند" rel="tag">تلفن هوشمند</a></span>
+                                <span class="tag rank-3"><a href="/tag/فناوری" rel="tag">فناوری</a></span>
+                                <span class="tag rank-4"><a href="/tag/Google" rel="tag">Google</a></span>
+                                <span class="tag rank-4"><a href="/tag/شنبه" rel="tag">شنبه</a></span>
+                                <span class="tag rank-4"><a href="/tag/گزارش" rel="tag">گزارش</a></span>
+                                <span class="tag rank-4"><a href="/tag/موبایل" rel="tag">موبایل</a></span>
+                                <span class="tag rank-4"><a href="/tag/ویندوز" rel="tag">ویندوز</a></span>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <ul class="menu text-menu">
+                        <li class="selected"><a href="#popular" data-title="محبوب‌ترین مطالب">محبوب‌ترین‌ها</a></li>
+                        <li><a href="#entries" data-title="آخرین مطالب">آخرین مطالب</a></li>
+                        <li><a href="#tags" data-title="ابر برچسب">ابر برچسب</a></li>
+                    </ul>
+                </div>
+ 
+                <div class="gallery-container video-gallery">
+                    <div class="box gallery">
+                        <figure>
+                            <a href="http://weblogina.com/video/nexus-7-unboxing/">
+                                <img alt="ویدیوی آنباکس تبلت نکسوس ۷" src="img/timthumb%20(27).jpg" width="320" height="180">
+                            </a>
+                            <figcaption>
+                                <a href="http://weblogina.com/video/nexus-7-unboxing/">ویدیوی آنباکس تبلت نکسوس ۷</a>
+                            </figcaption>
+                        </figure>
+                    </div>
+                </div>
+
+                <div class="box text-content">
+                    <h4><span>تبلیغات متنی</span></h4>
+                    <div class="body">
+                        <ol>
+                            <li>
+                                <a href="http://www.donyacomputer.com/Products/Mobile.html" target="_blank">
+                                    <span>قیمت گوشی</span>
+                                    <p>قیمت روز گوشی | قیمت موبایل سامسونگ | قیمت موبایل سونی و غیره</p>
+                                </a>
+                            </li>
+                            <li>
+                                <a rel="nofollow" href="http://www.onlinehost.ir/" target="_blank">
+                                    <span>آنلاین هاست</span>
+                                    <p>مرکز تخصصی میزبانی وب در ایران</p>
+                                </a>
+                            </li>
+                        </ol>
+                    </div>
+                </div>
+ 
+                <div class="gallery-container">
+                    <div class="box gallery">
+                        <figure>
+                            <a href="http://weblogina.com/review/sony-xperia-u-review/"><img alt="بررسی کامل گوشی Xperia U سونی" src="img/timthumb%20(28).jpg" width="320" height="80">
+                            </a>
+                            <figcaption>
+                                <a href="http://weblogina.com/review/sony-xperia-u-review/">بررسی کامل گوشی Xperia U سونی</a>
+                            </figcaption>
+                        </figure>
+                    </div>
+                    <div class="box gallery">
+                        <figure>
+                            <a href="http://weblogina.com/review/nexus-7-review/">
+                                <img alt="بررسی کامل تبلت نکسوس ۷" src="img/timthumb%20(29).jpg" width="320" height="80">
+                            </a>
+                            <figcaption>
+                                <a href="http://weblogina.com/review/nexus-7-review/">بررسی کامل تبلت نکسوس ۷</a>
+                            </figcaption>
+                        </figure>
+                    </div>
+
+                    <div class="half-box-container">
+                        <div class="half-box box gallery">
+                            <figure>
+                                <a href="http://weblogina.com/review/sony-xperia-s-review/">
+                                    <img alt="بررسی گوشی Xperia S سونی" src="img/timthumb%20(30).jpg" width="146" height="70">
+                                </a>
+                                <figcaption>
+                                    <a href="http://weblogina.com/review/sony-xperia-s-review/">بررسی گوشی Xperia S سونی</a>
+                                </figcaption>
+                            </figure>
+                        </div>
+                        
+                        <div class="half-box box gallery">
+                            <figure>
+                                <a href="http://weblogina.com/review/apple-a5x-vs-tegra-3/">
+                                    <img alt="آیا آیپد جدید واقعا چهار برابر از Tegra 3 سریع‌تر است؟" src="img/timthumb%20(31).jpg" width="146" height="70">
+                                </a>
+                                <figcaption>
+                                    <a href="http://weblogina.com/review/apple-a5x-vs-tegra-3/">
+                                        آیا آیپد جدید واقعا چهار برابر از Tegra 3 سریع‌تر است؟
+                                    </a>
+                                </figcaption>
+                            </figure>
+                        </div>
+
+                    </div>
+
+                    <div class="box gallery">
+                        <figure>
+                            <a href="http://weblogina.com/review/samsung-300v5a-s0b-laptop-review/">
+                                <img alt="بررسی لپ‌تاپ 300V5A-S0B سامسونگ" src="img/timthumb%20(32).jpg" width="320" height="80">
+                            </a>
+                            <figcaption>
+                                <a href="http://weblogina.com/review/samsung-300v5a-s0b-laptop-review/">
+                                    بررسی لپ‌تاپ 300V5A-S0B سامسونگ
+                                </a>
+                            </figcaption>
+                        </figure>
+                    </div>
+                </div>
+ 
+            </aside>
+ 
+        </section>
+    </section>
+ 
+    <footer class="dark-wrapper">
+        <div class="container">
+            
+            <section class="row content">
+                <section class="span8">
+                    <h3 class="striped">
+                        <span>مطالب با دیدگاه‌های جدید</span>
+                        <hr>
+                    </h3>
+                    <ul class="posts">
+                        <li>
+                            <a href="http://weblogina.com/news/microsoft-giving-away-free-it-training-and-a-job-to-soldiers/">
+                                <img alt="مایکروسافت به سربازان آموزش رایگان و شغل می‌دهد" src="img/timthumb%20(33).jpg" width="153" height="82">
+                                <span>مایکروسافت به سربازان آموزش رایگان و شغل می‌دهد</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="http://weblogina.com/article/color-on-the-web/">
+                                <img alt="رنگ در دنیای وب" src="img/timthumb%20(34).jpg" width="153" height="82">
+                                <span>رنگ در دنیای وب</span>
+                            </a>
+                        </li>
+                        <li class="last">
+                            <a href="http://weblogina.com/article/c-sharp-time-part-2/">
+                                <img alt="زنگ سی‌شارپ - قسمت دوم" src="img/timthumb%20(35).jpg" width="153" height="82">
+                                <span>زنگ سی‌شارپ - قسمت دوم</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="http://weblogina.com/introduction/instagrille-for-windows/">
+                                <img alt="Instagrille، نسخه ویندوزی اینستاگرام" src="img/timthumb%20(36).jpg" width="153" height="82">
+                                <span>Instagrille، نسخه ویندوزی اینستاگرام</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="http://weblogina.com/review/sony-xperia-u-review/">
+                                <img alt="بررسی کامل گوشی Xperia U سونی" src="img/timthumb%20(37).jpg" width="153" height="82">
+                                <span>بررسی کامل گوشی Xperia U سونی</span>
+                            </a>
+                        </li>
+                        <li class="last">
+                            <a href="http://weblogina.com/introduction/samsung-galaxy-s3-specifications-highlights/">
+                                <img alt="Galaxy S3، تلفنی که شما را تماشا می‌کند!" src="img/timthumb%20(38).jpg" width="153" height="82">
+                                <span>Galaxy S3، تلفنی که شما را تماشا می‌کند!</span>
+                            </a>
+                        </li>
+                    </ul>
+                </section>
+
+                <section class="span7 offset1 copy">
+                    <h3 class="striped">
+                        <span>با حمایت</span>
+                        <hr>
+                    </h3>
+                    <div class="sponsors">
+                        <a href="http://zigzaglab.com/" target="_blank" class="zigzaglab">ZigzagLab</a>
+                    </div>
+                    <h3 class="logo"><a href="http://weblogina.com/">وبلاگینا</a></h3>
+                    <p>
+                        <i class="icon cc"></i>
+                        <br>
+                        تمامی حقوق این وب سایت شامل مطالب، محتوا و تصاویر تحت لیسانس
+                        <a rel="nofollow" href="http://creativecommons.org/licenses/by-nc-nd/3.0/" target="_blank">کریتیو کامنز</a>
+                        و متعلق به وبلاگینا است. هرگونه استفاده از محتوای نوشتاری و چند رسانه ای این سایت یا بازنشر آن ها در رسانه های آنلاین و نشریات، تنها با ذکر منبع و درج لینک مبدا مجاز است.
+                    </p>
+                    <a href="http://weblogina.com/about/">درباره ما</a><em>•</em>
+                    <a href="http://weblogina.com/cooperation/">همکاری</a><em>•</em>
+                    <a href="http://weblogina.com/advertisement/">تبلیغات</a><em>•</em>
+                    <a href="http://weblogina.com/contact/">تماس با ما</a><em>•</em>
+                    <a href="http://weblogina.com/version-history/">نسخه ۴.۱.۲ - ۲۵ آذر ۱۳۹۱</a>
+                </section>
+
+            </section>
+        </div>
+    </footer>
+ 
+ 
+    <script src="js/jquery.min.js"></script>
+    <script>!window.jQuery && document.write(unescape('%3Cscript src="js/jquery.min.js"%3E%3C/script%3E'))</script>
+    <script src="js/authors.js"></script>
+    <script src="js/plugins.min.js"></script>
+    <script src="js/mediaelement-and-player.min.js"></script>
+    <script src="js/app.js"></script>
+ 
 </body>
 </html>
