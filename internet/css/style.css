@@ -380,6 +380,15 @@ body {
 
 .post {
 	margin-bottom: 20px;
+	position: relative;
+}
+
+.post .top {
+	background: transparent url(../img/sprites.png) no-repeat -277px 0;
+	width: 23px;
+	height: 39px;
+	position: absolute;
+	right: -32px;
 }
 
 .post-thumb {
@@ -401,6 +410,20 @@ body {
 .post:hover .post-thumb a {
 	background-color: #ef4534;
 	border-color: #de2412;
+}
+
+.post-thumb figcaption {
+	background: #ef4534;
+	border-radius: 3px 0 5px 0;
+	color: #fff;
+	position: absolute;
+	font-size: 13px;
+	padding: 0 10px;
+	bottom: 15px;
+	right: 0;
+	border: 1px solid transparent;
+	border-width: 0 1px 1px 0;
+	text-shadow: 0 1px 0 #950403;
 }
 
 .post-body {
@@ -742,6 +765,41 @@ body {
 	display: block;
 }
 
+#sidebar .box.galary {
+	margin-bottom: 8px;
+}
+
+#sidebar .box.ads {
+	padding-bottom: 5px;
+}
+
+#sidebar .box.ads .box-head {
+	margin-bottom: 20px;
+}
+
+#sidebar .ad-entry section {
+	padding-bottom: 9px;
+	margin-bottom: 9px;
+	border-bottom: 1px dotted #ddd;
+}
+
+#sidebar .ad-entry:last-of-type section {
+	border: 0;
+}
+
+#sidebar .ad-entry header {
+	color: #0069d6;
+	font-size: 13px;
+	margin-bottom: 1px;
+}
+
+#sidebar .ad-entry span {
+	color: #737373;
+	display: block;
+	line-height: 18px;
+	font-size: 13px;
+}
+
 #sidebar .box.image {
 	border: 0;
 }
@@ -750,8 +808,17 @@ body {
 	width: 300px;
 }
 
+#sidebar .box.image.half img {
+	width: 146px;
+}
+
 #sidebar .box.image figure {
 	position: relative;
+	display: inline-block;
+}
+
+#sidebar .box.image.half figure:first-of-type {
+	margin-left: 4px;
 }
 
 #sidebar .box.image figcaption {
@@ -766,6 +833,11 @@ body {
 	background: rgba(0, 0, 0, 0.6);
 	width: 284px;
 	transition: background 0.2s linear;
+	text-overflow: ellipsis;
+}
+
+#sidebar .box.image.half figcaption {
+	width: 130px;
 }
 
 #sidebar .box.image:hover figcaption {
