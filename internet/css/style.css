@@ -347,13 +347,13 @@ body {
 .tabbed li {
 	display: inline-block;
 	line-height: 40px;
-	/*margin-right: 1px;*/
 	font-size: 13px;
 	color: #8c8c8c;
 }
 
 .tabbed a {
 	padding: 0 5px;
+	padding-left: 4px;
 }
 
 .tabbed li.selected {
@@ -492,6 +492,7 @@ body {
 }
 
 #mini-slider {
+	position: relative;
 	margin: 30px 0 30px;
 	padding: 10px;
 	padding-left: 0;
@@ -513,6 +514,15 @@ body {
 #mini-slider img {
 	padding: 3px;
 	
+}
+
+.company {
+	background: transparent url(../img/sprites.png) no-repeat -249px 0;
+	width: 23px;
+	height: 112px;
+	position: absolute;
+	top: 0;
+	right: -33px;
 }
 
 #posts-grid {
@@ -704,7 +714,7 @@ body {
 	background: url(../img/sprite_bgs.png) 0 -40px repeat-x;
 }
 
-#sidebar .box-foot a {
+#sidebar .box-foot>a {
 	position: relative;
 	top: 1px;
 	margin: 0 auto;
@@ -714,6 +724,41 @@ body {
 	text-indent: -9999px;
 	opacity: 1;
 	display: block;
+}
+
+#sidebar .box-foot ul {
+	padding: 0 25px;
+	height: 100%;
+}
+
+#sidebar .box-foot li {
+	height: 100%;
+	float: right;
+	list-style-type: none;
+}
+
+#sidebar .box-foot li a {
+	margin: 0 10px;
+	font-size: 13px;
+	color: #bbb;
+	height: 100%;
+	display: block;
+	line-height: 36px;
+	margin-left: 14px;
+	text-shadow: 0 1px 0 #000;
+}
+
+#sidebar .box-foot li:last-of-type a {
+	margin-left: 0;
+}
+
+#sidebar .box-foot li a.selected,
+#sidebar .box-foot li a:hover {
+	color: #fff;
+}
+
+#sidebar .icon.selected {
+	
 }
 
 #sidebar .post-entry {
@@ -774,13 +819,23 @@ body {
 }
 
 #sidebar .box.ads .box-head {
-	margin-bottom: 20px;
+	margin-bottom: 17px;
+}
+
+#sidebar .ad-entry {
+	display: block;
 }
 
 #sidebar .ad-entry section {
 	padding-bottom: 9px;
-	margin-bottom: 9px;
+	margin-bottom: 6px;
 	border-bottom: 1px dotted #ddd;
+}
+
+#sidebar .ad-entry section:hover header {
+	background: #ef4534;
+	color: #fff;
+	text-shadow: 0 1px 0 #950403;
 }
 
 #sidebar .ad-entry:last-of-type section {
@@ -788,6 +843,7 @@ body {
 }
 
 #sidebar .ad-entry header {
+	display: inline-block;
 	color: #0069d6;
 	font-size: 13px;
 	margin-bottom: 1px;
@@ -801,6 +857,7 @@ body {
 }
 
 #sidebar .box.image {
+	position: relative;
 	border: 0;
 }
 
@@ -834,6 +891,7 @@ body {
 	width: 284px;
 	transition: background 0.2s linear;
 	text-overflow: ellipsis;
+	text-shadow: 0 1px 0 #000;
 }
 
 #sidebar .box.image.half figcaption {
@@ -853,6 +911,22 @@ body {
 	left: 50%;
 	margin: -31px 0 0 -31px;
 	opacity: 0.9;
+}
+
+#sidebar .videocast {
+	position: absolute;
+	background: transparent url(../img/sprites.png) no-repeat -368px 0;
+	width: 23px;
+	height: 124px;
+	left: -32px;
+}
+
+#sidebar .check-product {
+	position: absolute;
+	background: transparent url(../img/sprites.png) no-repeat -306px 0;
+	width: 23px;
+	height: 124px;
+	left: -32px;
 }
 
 #footer {
