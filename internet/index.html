@@ -1,686 +1,725 @@
 <!DOCTYPE html>
-<html>
-<head>
-    <meta charset="UTF-8">
-    <title>وبلاگینا</title>
-    <link rel="stylesheet" type="text/css" href="css/style.css">
-    <link rel="stylesheet" type="text/css" href="css/font.css">
-</head>
-<body>
-    <header id="header">
-        <div id="topbar">
-            <div>
-                <ul>
-                    <li><a href="#">درباره ما</a></li>
-                    <li class="devider">&bull;</li>
-                    <li><a href="#">مشاغل</a></li>
-                    <li class="devider">&bull;</li>
-                    <li><a href="#">تبلیغات</a></li>
-                    <li class="devider">&bull;</li>
-                    <li><a href="#">تماس با ما</a></li>
-                </ul>
-                <form method="get" action="#">
-                    <input placeholder="جستجو...">
-                    <i></i>
-                </form>
-            </div>
-        </div>
-        <div id="logo">
-            <h1><a href="#">وبلاگینا</a></h1>
-            <div><a href="#"><img src="img/baaemail-ad-comin-soon-728-90-2.png"></a></div>
-        </div>
-    </header>
-    <section id="wrapper">
-        <nav>
-            <ul id="mainNAV">
-                <li><a href="#" class="current"><span class="news">اخبار</span></a></li>
-                <li><a href="#"><span class="reports">گزارش</span></a></li>
-                <li><a href="#"><span class="interviews">مصاحبه</span></a></li>
-                <li><a href="#"><span class="articles">مقاله</span></a></li>
-                <li><a href="#"><span class="latest">معرفی</span></a></li>
-                <li><a href="#"><span class="reviews">بررسی محصول</span></a></li>
-                <li><a href="#"><span class="podcast">پادکست</span></a></li>
-                <li><a href="#"><span class="videos">ویدیو</span></a></li>
-            </ul>
-            <div class="social">
-                <a class="facebook" href="#">&#xF003;</a>
-                <a class="twitter" href="#">&#xF004;</a>
-                <a class="gplus" href="#">&#xF00d;</a>
-                <a class="rss" href="#">&#xF002;</a>
-            </div>
-        </nav>
-        <section id="main">
-            <section id="content">
-                <div id="slider">
-                    <div class="big">
-                        <figure>
-                            <a href="#"><img src="img/timthumb_big.jpg"></a>
-							<figcaption>
-								<a href="#">بیخیال زبان و موسیقی، به کودکانمان کدنویسی بیاموزیم</a>
-							</figcaption>
-                        </figure>
-                    </div>
-                    <div class="thumb">
-						<figure>
-							<img src="img/timthumb_thumb1.jpg">
-							<span><i></i></span>
-						</figure>
-						<figure>
-							<img src="img/timthumb_thumb2.jpg">
-							<span><i></i></span>
-						</figure>
-						<figure>
-							<img src="img/timthumb_thumb3.jpg">
-							<span><i></i></span>
-						</figure>
-                    </div>
-					<div class="devider"></div>
-                </div>
-				<div class="tabbed">
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>وبلاگینا</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+		<link rel="icon" href="favicon.ico" sizes="16x16" type="image/x-icon">
+
+		<link rel="stylesheet" href="css/style.css">
+		<link rel="stylesheet" href="css/font.css">
+		<!--
+        <link rel="stylesheet" href="css/normalize.css">
+        <link rel="stylesheet" href="css/main.css">
+		-->
+        <script src="js/vendor/modernizr-2.6.2.min.js"></script>
+    </head>
+    <body>
+        <!--[if lt IE 7]>
+            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+
+        <!-- Add your site or application content here -->
+		<!-- <p>Hello world! This is HTML5 Boilerplate.</p> -->
+		<header id="header">
+			<div id="topbar">
+				<div>
 					<ul>
-						<li class="selected"><a href="#">تازه‌هــا</a></li>
-						<li><a href="#">محبوب‌تریــن</a></li>
-						<li><a href="#">پر بــحث‌ترین</a></li>
+						<li><a href="#">درباره ما</a></li>
+						<li class="devider">&bull;</li>
+						<li><a href="#">مشاغل</a></li>
+						<li class="devider">&bull;</li>
+						<li><a href="#">تبلیغات</a></li>
+						<li class="devider">&bull;</li>
+						<li><a href="#">تماس با ما</a></li>
 					</ul>
+					<form method="get" action="#">
+						<input placeholder="جستجو...">
+						<i></i>
+					</form>
 				</div>
-				<section id="posts">
-					<article class="post">
-						<figure class="post-thumb">
-							<a href="#"><img src="img/posts/timthumb1.jpg"></a>
-						</figure>
-						<section class="post-body">
-							<header>
-								<header class="post-head">
-									<a href="#">مرحله اول مسابقات بین المللی برنامه نویسی بیان آغاز شد</a>
-								</header>
-								<footer class="post-info">
-									<span>نوشته</span>
-									<a href="#">آرش زاد</a>
-									<span class="bull">&bull;</span>
-									<span>۱۷ مهر ۱۳۹۳</span>
-									<a href="#">
-										<span class="bull">&bull;</span>
-										<span>بدون نظر</span>
-									</a>
-								</footer>
-							</header>
-							<article class="post-content">
-								<p>سومین دوره مسابقات برنامه نویسی بیان که به صورت بین المللی برگزار می‌شود از امروز آغاز شده است. مرحله اول این دوره از مسابقات به صورت آنلاین برگزار می‌شود و برنامه نویسان ۷۲ ساعت برای حل سه سوال علمی این...</p>
-							</article>
-						</section>
-						<div class="devider"></div>
-					</article>
-					<article class="post">
-						<figure class="post-thumb">
-							<a href="#"><img src="img/posts/timthumb2.jpg"></a>
-						</figure>
-						<section class="post-body">
-							<header>
-								<header class="post-head">
-									<a href="#">شماره یکم سلام دنیا: ماهنامه تخصصی نرم‌افزارهای آزاد</a>
-								</header>
-								<footer class="post-info">
-									<span>نوشته</span>
-									<a href="#">سعید چوبانی</a>
-									<span class="bull">&bull;</span>
-									<span>۱۴ مهر ۱۳۹۳</span>
-									<a href="#">
-										<span class="bull">&bull;</span>
-										<span>۱ دیدگاه	</span>
-									</a>
-								</footer>
-							</header>
-							<article class="post-content">
-								<p>سلام دنیا ماهنامه تخصصی در حوزه نرم‌افزارهای آزاد است که از دل جامعه متن‌باز کشور بیرون آمده، ماهنامه‌ای که نه تنها مسئولیت نشر و تولید محتوا و دیگر زحمت‌هایش بر عهده خود جامعه متن‌باز است بلکه قطره قطره سرمایه‌گذاری انجام...</p>
-							</article>
-						</section>
-						<div class="devider"></div>
-					</article>
-					<article class="post">
-						<figure class="post-thumb">
-							<a href="#"><img src="img/posts/timthumb3.png"></a>
-						</figure>
-						<section class="post-body">
-							<header>
-								<header class="post-head">
-									<a href="#">گوگل قابلیت تشخیص گفتار فارسی را به اندروید اضافه کرد</a>
-								</header>
-								<footer class="post-info">
-									<span>نوشته</span>
-									<a href="#">آرش زاد</a>
-									<span class="bull">&bull;</span>
-									<span>۱۱ مهر ۱۳۹۳</span>
-									<a href="#">
-										<span class="bull">&bull;</span>
-										<span>۱۸ دیدگاه</span>
-									</a>
-								</footer>
-							</header>
-							<article class="post-content">
-								<p>اگر از کاربران سیستم‌عامل اندروید باشید، از امروز می‌توانید به زبان فارسی با تلفن هوشمند خود صحبت کنید. گوگل به تازگی قابلیت تشخیص گفتار به زبان فارسی را به سیستم‌عامل خود اضافه کرده است. این ویژگی باعث می‌شود تا از...</p>
-							</article>
-						</section>
-						<div class="devider"></div>
-					</article>
-					<article class="post">
-						<span class="top"></span>
-						<figure class="post-thumb">
-							<a href="#"><img src="img/posts/timthumb4.jpg"></a>
-							<figcaption>منتخب</figcaption>
-						</figure>
-						<section class="post-body">
-							<header>
-								<header class="post-head">
-									<a href="#">نگاهی به رویداد جهانی Startup Istanbul ترکیه</a>
-								</header>
-								<footer class="post-info">
-									<span>نوشته</span>
-									<a href="#">مریم انصاری</a>
-									<span class="bull">&bull;</span>
-									<span>۱۰ مهر ۱۳۹۳</span>
-									<a href="#">
-										<span class="bull">&bull;</span>
-										<span>۶ دیدگاه</span>
-									</a>
-								</footer>
-							</header>
-							<article class="post-content">
-								<p>رویداد استارتاپ استانبول که از طرف شتابدهنده Etohum در کشور ترکیه برگزار می‌شود، امسال میزبان استارتاپ‌های مختلفی از سراسر دنیا بود. این رویداد در یک بازه سه روزه، فرایند انتخاب استارتاپ‌های برگزیده را از بین حدود ۱۰۰ تیم، به کمک داوران بین‌المللی انجام می‌دهد و در نهایت ۱۵ استارتاپ نهایی...</p>
-							</article>
-						</section>
-						<div class="devider"></div>
-					</article>
-					<article class="post">
-						<figure class="post-thumb">
-							<a href="#"><img src="img/posts/timthumb5.jpg"></a>
-						</figure>
-						<section class="post-body">
-							<header>
-								<header class="post-head">
-									<a href="#">زمانی که گوگل، ویکی‌لیکس را ملاقات کرد</a>
-								</header>
-								<footer class="post-info">
-									<span>نوشته</span>
-									<a href="#">سعید چوبانی</a>
-									<span class="bull">&bull;</span>
-									<span>۰۳ مهر ۱۳۹۳</span>
-									<a href="#">
-										<span class="bull">&bull;</span>
-										<span>۲ دیدگاه</span>
-									</a>
-								</footer>
-							</header>
-							<article class="post-content">
-								<p>در ماه ژوئن سال ۲۰۱۱، جولیان آسانژ مهمانی ناخوانده داشت: اریک اشمیت، مدیر وقت گوگل از آمریکا به دیدن مردی آمده بود که در حبس خانگی به سر می‌برد.&nbsp; برای ساعت‌ها رهبر محصور مشهورترین انتشارات آنلاین جهان که با انتشار واقعیت‌های تلخی از چهره سیاست‌های حاکم، گرد و خاک بسیاری...</p>
-							</article>
-						</section>
-						<div class="devider"></div>
-					</article>
-					<article class="post">
-						<figure class="post-thumb">
-							<a href="#"><img src="img/posts/timthumb6.jpg"></a>
-						</figure>
-						<section class="post-body">
-							<header>
-								<header class="post-head">
-									<a href="#">نسل ۳ و ۴ شبکه تلفن همراه ایرانسل رسما راه اندازی شد</a>
-								</header>
-								<footer class="post-info">
-									<span>نوشته</span>
-									<a href="#">آرش زاد</a>
-									<span class="bull">&bull;</span>
-									<span>۰۵ شهریور ۱۳۹۳</span>
-									<a href="#">
-										<span class="bull">&bull;</span>
-										<span>۹ دیدگاه</span>
-									</a>
-								</footer>
-							</header>
-							<article class="post-content">
-								<p>همانطور که مطلع هستید، دو اپراتور ایرانسل و همراه اول از هفته‌های گذشته مشغول راه‌اندازی آزمایشی شبکه نسل ۳ برای کاربران خود بوده‌اند. طی این بازه، مشترکین این اپراتورها در برخی مناطق می‌توانستند از خدمات اینترنت پر سرعت نسل جدید...</p>
-							</article>
-						</section>
-						<div class="devider"></div>
-					</article>
-					<article class="post">
-						<figure class="post-thumb">
-							<a href="#"><img src="img/posts/timthumb7.png"></a>
-						</figure>
-						<section class="post-body">
-							<header>
-								<header class="post-head">
-									<a href="#">اینفوگرافیک: وضعیت شغلی زنان در کشور ایران</a>
-								</header>
-								<footer class="post-info">
-									<span>نوشته</span>
-									<a href="#">سعید چوبانی</a>
-									<span class="bull">&bull;</span>
-									<span>۰۴ شهریور ۱۳۹۳</span>
-									<a href="#">
-										<span class="bull">&bull;</span>
-										<span>۱۲ دیدگاه</span>
-									</a>
-								</footer>
-							</header>
-							<article class="post-content">
-								<p>کانون کارآفرینی ایران، به تازگی اینفوگرافی را منتشر کرده است که اطلاعات جالبی در رابطه با &nbsp;وضعیت شغلی زنان در کشورمان ارائه می‌دهد. این آمار به خوبی نشان می‌دهد که علی‌رغم اینکه کرسی‌های صندلی دانشگاه بیشتر در اختیار زنان است، ولی فقط ۱۳ درصد از نیروی کار متخصص، زنان هستند....</p>
-							</article>
-						</section>
-						<div class="devider"></div>
-					</article>
-					<article class="post">
-						<figure class="post-thumb">
-							<a href="#"><img src="img/posts/timthumb8.jpg"></a>
-						</figure>
-						<section class="post-body">
-							<header>
-								<header class="post-head">
-									<a href="#">شکست‌های میلیون دلاری</a>
-								</header>
-								<footer class="post-info">
-									<span>نوشته</span>
-									<a href="#">سعید چوبانی</a>
-									<span class="bull">&bull;</span>
-									<span>۱۹ مرداد ۱۳۹۳</span>
-									<a href="#">
-										<span class="bull">&bull;</span>
-										<span>۱۴ دیدگاه</span>
-									</a>
-								</footer>
-							</header>
-							<article class="post-content">
-								<p>روزگاری که دایی بزرگتر من شکست چند صد میلیونی در کسب و کار جدیدش را تجربه می‌کرد، برای هیچ یک از اعضای خانواده ما فراموش شدنی نیست. ولی موضوعی که هرگز از حافظه من پاک نمی‌شود، حرفی بود که موقع خاموش کردن ته سیگار در بالکن خانه‌اشان به من گفت:...</p>
-							</article>
-						</section>
-						<div class="devider"></div>
-					</article>
-					<article class="post">
-						<figure class="post-thumb">
-							<a href="#"><img src="img/posts/timthumb9.jpg"></a>
-						</figure>
-						<section class="post-body">
-							<header>
-								<header class="post-head">
-									<a href="#">پنجمین همایش سراسری نرم‌افزارهای آزاد/متن‌باز در زنجان برگزار می‌شود</a>
-								</header>
-								<footer class="post-info">
-									<span>نوشته</span>
-									<a href="#">سعید چوبانی</a>
-									<span class="bull">&bull;</span>
-									<span>۲۹ تیر ۱۳۹۳</span>
-									<a href="#">
-										<span class="bull">&bull;</span>
-										<span>۵ دیدگاه</span>
-									</a>
-								</footer>
-							</header>
-							<article class="post-content">
-								<p>نرم افزارهای آزاد/متن باز به نرم افزارهایی گفته می‌شود که برپایه اعتماد به جامعه کاربری و استفاده کنندگان بنا نهاده شده و همواره تلاش دارد تا با استفاده از ظرفیت بسیار بالای کاربرانش، خود را ارتقا بخشد. به همین دلیل...</p>
-							</article>
-						</section>
-						<div class="devider"></div>
-					</article>
-					<article class="post">
-						<figure class="post-thumb">
-							<a href="#"><img src="img/posts/timthumb10.jpg"></a>
-						</figure>
-						<section class="post-body">
-							<header>
-								<header class="post-head">
-									<a href="#">Trisquel فرزند خلف بنیاد نرم‌افزار آزاد</a>
-								</header>
-								<footer class="post-info">
-									<span>نوشته</span>
-									<a href="#">سعید چوبانی</a>
-									<span class="bull">&bull;</span>
-									<span>۱۹ تیر ۱۳۹۳</span>
-									<a href="#">
-										<span class="bull">&bull;</span>
-										<span>۴ دیدگاه</span>
-									</a>
-								</footer>
-							</header>
-							<article class="post-content">
-								<p>استفاده از واژه آزادی کار سختی است. نه اینکه ترس داشته باشد، بلکه سخت است. آنقدر به غلط از آن استفاده کرده‌ایم که معنای واقعی‌اش را از دست داده و دیگر چیزی جز یک توهم از آن&nbsp;باقی نمانده است. شاید فرهنگ و جامعه متن‌باز هم صرفن توهمی از آزادی برای...</p>
-							</article>
-						</section>
-						<div class="devider"></div>
-					</article>
-					<article class="post">
-						<figure class="post-thumb">
-							<a href="#"><img src="img/posts/timthumb11.jpg"></a>
-						</figure>
-						<section class="post-body">
-							<header>
-								<header class="post-head">
-									<a href="#">سه شرکت بزرگ اینترنتی در ایران از نگاه اکونومیست</a>
-								</header>
-								<footer class="post-info">
-									<span>نوشته</span>
-									<a href="#">آرش زاد</a>
-									<span class="bull">&bull;</span>
-									<span>۱۷ تیر ۱۳۹۳</span>
-									<a href="#">
-										<span class="bull">&bull;</span>
-										<span>۳۴ دیدگاه</span>
-									</a>
-								</footer>
-							</header>
-							<article class="post-content">
-								<p>وبسایت هفته‌نامه معروف اکونومیست در گزارشی که به تازگی منتشر کرده است، سه شرکت بزرگ در حوزه اینترنت در کشورهای مختلف دنیا را روی یک نمودار به تصویر کشیده است. این نمودار که بر پایه اطلاعات مجموعه World Startup Report...</p>
-							</article>
-						</section>
-						<div class="devider"></div>
-					</article>
-					<article class="post">
-						<figure class="post-thumb">
-							<a href="#"><img src="img/posts/timthumb12.jpg"></a>
-						</figure>
-						<section class="post-body">
-							<header>
-								<header class="post-head">
-									<a href="#">گوگل سرویس موسیقی Songza را از آن خود کرد</a>
-								</header>
-								<footer class="post-info">
-									<span>نوشته</span>
-									<a href="#">آرش زاد</a>
-									<span class="bull">&bull;</span>
-									<span>۱۱ تیر ۱۳۹۳</span>
-									<a href="#">
-										<span class="bull">&bull;</span>
-										<span>۳ دیدگاه</span>
-									</a>
-								</footer>
-							</header>
-							<article class="post-content">
-								<p>سرویس موسیقی Songza که به دلیل امکان انتخاب پلی‌لیست‌های مختلف موسیقی در بین کاربران معروف است، لحظاتی پیش اعلام کرد که به جمع دارایی‌های گوگل اضافه شده است. این سرویس ضمن اعلام این خبر در وبلاگ خود گفته است که در حال حاضر هیچ برنامه‌ای برای تغییر ندارد و تنها...</p>
-							</article>
-						</section>
-						<div class="devider"></div>
-					</article>
-				</section>
-				<div id="pages">
-					<a href="#">نوشته‌های قدیمی‌تر <i></i></a>
-					<div class="devider"></div>
-				</div>
-				<div id="mini-slider">
-					<span class="company"></span>
-					<figure>
-						<img src="img/mini-slider/timthumb1.png">
-					</figure>
-					<figure>
-						<img src="img/mini-slider/timthumb2.jpg">
-					</figure>
-					<figure>
-						<img src="img/mini-slider/timthumb3.jpg">
-					</figure>
-					<figure>
-						<img src="img/mini-slider/timthumb4.jpg">
-					</figure>
-					<figure>
-						<img src="img/mini-slider/timthumb5.jpg">
-					</figure>
-					<div class="devider"></div>
-				</div>
-				<div class="tabbed">
-					<ul>
-						<li class="single">مقالات منتخب</li>
-					</ul>
-				</div>
-				<section id="posts-grid">
-					<div class="grid-row">
-						<section class="post-grid">
-							<figure>
-								<a href="#"><img src="img/post-grid/timthumb1.jpg"></a>
-							</figure>
-							<article class="post-grid-content">
-								<header><a href="#">شماره یکم سلام دنیا: ماهنامه تخصصی نرم‌افزارهای آزاد</a></header>
-								<article>سلام دنیا ماهنامه تخصصی در حوزه نرم‌افزارهای آزاد است که از دل جامعه...</article>
-							</article>
-						</section>
-						<section class="post-grid">
-							<figure>
-								<a href="#"><img src="img/post-grid/timthumb2.jpg"></a>
-							</figure>
-							<article class="post-grid-content">
-								<header><a href="#">زمانی که گوگل، ویکی‌لیکس را ملاقات کرد</a></header>
-								<article>در ماه ژوئن سال ۲۰۱۱، جولیان آسانژ مهمانی ناخوانده داشت: اریک اشمیت، مدیر...</article>
-							</article>
-						</section>
-						<section class="post-grid">
-							<figure>
-								<a href="#"><img src="img/post-grid/timthumb3.png"></a>
-							</figure>
-							<article class="post-grid-content">
-								<header><a href="#">اینفوگرافیک: وضعیت شغلی زنان در کشور ایران</a></header>
-								<article>کانون کارآفرینی ایران، به تازگی اینفوگرافی را منتشر کرده است که اطلاعات جالبی...</article>
-							</article>
-						</section>
-						<div class="devider"></div>
-					</div>
-					<div class="grid-row">
-						<section class="post-grid">
-							<figure>
-								<a href="#"><img src="img/post-grid/timthumb4.jpg"></a>
-							</figure>
-							<article class="post-grid-content">
-								<header><a href="#">شکست‌های میلیون دلاری</a></header>
-								<article>روزگاری که دایی بزرگتر من شکست چند صد میلیونی در کسب و کار...</article>
-							</article>
-						</section>
-						<section class="post-grid">
-							<figure>
-								<a href="#"><img src="img/post-grid/timthumb5.jpg"></a>
-							</figure>
-							<article class="post-grid-content">
-								<header><a href="#">Trisquel فرزند خلف بنیاد نرم‌افزار آزاد</a></header>
-								<article>استفاده از واژه آزادی کار سختی است. نه اینکه ترس داشته باشد، بلکه...</article>
-							</article>
-						</section>
-						<section class="post-grid">
-							<figure>
-								<a href="#"><img src="img/post-grid/timthumb6.jpg"></a>
-							</figure>
-							<article class="post-grid-content">
-								<header><a href="#">سبک نگارش ایمیل‌تان می‌تواند شخصیت شما را تعریف کند</a></header>
-								<article>اگر در حوزه فناوری فعالیت می‌کنید، احتمالا بخش زیادی از ارتباطات کاری‌تان از...</article>
-							</article>
-						</section>
-						<div class="devider"></div>
-					</div>
-				</section>
-            </section>
-            <aside id="sidebar">
-				<section class="box image">
-					<a href="#"><img src="img/weblogina-currents-banner.jpg"></a>
-				</section>
-				<section class="box image"></section>
-				<section class="box">
-					<header class="box-head"><span>مشترک وبلاگینا شوید</span></header>
-					<section class="box-body">
-						<form action="#" method="post">
-							<button type="submit">
-								<i class="icon-fire"></i>
-								اشتراک
-							</button>
-							<input placeholder="Email Address…">
-						</form>
-						<div class="or"><span>یا</span><hr></div>
-						<p><a href="#">
-							<i class="icon-star"></i>
-							 به جمع
-							۱۱۰۰۰
-							خواننده وبلاگینا بپیوندید.
-							</a></p>
-					</section>
-					<footer class="box-foot">
-						<a href="#">Feed</a>
-					</footer>
-				</section>
-				<section class="box">
-					<header class="box-head"><span>محبوب‌تریــن</span></header>
-					<section class="box-body">
-						<a href="#" class="post-entry">
-							<section>
-								<figure>
-									<img src="img/side/timthumb1.jpg">
-								</figure>
-								<header>زمانی که گوگل، ویکی‌لیکس را ملاقات کرد</header>
-								<span>31 شهریور 1393</span>
-								<div class="devider"></div>
-							</section>
-						</a>
-						<a href="#" class="post-entry">
-							<section>
-								<figure>
-									<img src="img/side/timthumb2.jpg">
-								</figure>
-								<header>نگاهی به رویداد جهانی Startup Istanbul ترکیه</header>
-								<span>10 مهر 1393</span>
-								<div class="devider"></div>
-							</section>
-						</a>
-						<a href="#" class="post-entry">
-							<section>
-								<figure>
-									<img src="img/side/timthumb3.png">
-								</figure>
-								<header>گوگل قابلیت تشخیص گفتار فارسی را به اندروید اضافه کرد</header>
-								<span>11 مهر 1393</span>
-								<div class="devider"></div>
-							</section>
-						</a>
-						<a href="#" class="post-entry">
-							<section>
-								<figure>
-									<img src="img/side/timthumb4.jpg">
-								</figure>
-								<header>شماره یکم سلام دنیا: ماهنامه تخصصی نرم‌افزارهای آزاد</header>
-								<span>12 مهر 1393</span>
-								<div class="devider"></div>
-							</section>
-						</a>
-						<!--<div class="spacer"></div>-->
-					</section>
-					<!--<div class="spacer"></div>-->
-					<footer class="box-foot">
-						<ul>
-							<i class="icon select"></i>
-							<li><a href="#" class="selected">محبوب‌ترین‌ها</a></li>
-							<li><a href="#">آخرین مطالب</a></li>
-							<li><a href="#">ابر برچسب</a></li>
-							<div class="devider"></div>
-						</ul>
-					</footer>
-				</section>
-				<section class="box image galary">
-					<span class="videocast"></span>
-					<a href="#">
-						<figure>
-							<i class="icon-play"></i>
-							<img src="img/timthumb4.jpg" width="320" height="180">
-							<figcaption>ویدیوی آنباکس تبلت نکسوس ۷</figcaption>
-						</figure>
-					</a>
-				</section>
-				<section class="box ads">
-					<header class="box-head"><span>تبلیغات متنی</span></header>
-					<section class="box-body">
-						<a href="#" class="ad-entry">
-							<section>
-								<header>قیمت گوشی</header>
-								<span>قیمت روز گوشی | قیمت موبایل سامسونگ | قیمت موبایل سونی و غیره</span>
-								<div class="devider"></div>
-							</section>
-						</a>
-						<a href="#" class="ad-entry">
-							<section>
-								<header>آنلاین هاست</header>
-								<span>مرکز تخصصی میزبانی وب در ایران</span>
-								<div class="devider"></div>
-							</section>
-						</a>
-						<!--<div class="spacer"></div>-->
-					</section>
-				</section>
-				<section class="box image galary">
-					<span class="check-product"></span>
-					<a href="#">
-						<figure>
-							<img src="img/timthumb5.jpg" width="320" height="80">
-							<figcaption>بررسی کامل گوشی Xperia U سونی</figcaption>
-						</figure>
-					</a>
-				</section>
-				<section class="box image galary">
-					<a href="#">
-						<figure>
-							<img src="img/timthumb6.jpg" width="320" height="80">
-							<figcaption>بررسی کامل تبلت نکسوس ۷</figcaption>
-						</figure>
-					</a>
-				</section>
-				<section class="box image galary half">
-					<a href="#">
-						<figure>
-							<img src="img/timthumb7.jpg" width="146" height="70">
-							<figcaption>بررسی گوشی Xperia S ...</figcaption>
-						</figure>
-						<figure>
-							<img src="img/timthumb8.jpg" width="146" height="70">
-							<figcaption>آیا آیپد جدید واقعا چهار ...</figcaption>
-						</figure>
-					</a>
-				</section>
-				<section class="box image galary">
-					<a href="#">
-						<figure>
-							<img src="img/timthumb9.jpg" width="320" height="80">
-							<figcaption>بررسی لپ‌تاپ 300V5A-S0B سامسونگ</figcaption>
-						</figure>
-					</a>
-				</section>
-            </aside>
-			<div class="devider"></div>
-        </section>
-    </section>
-	<footer id="footer">
-		<section>
-			<section id="foot-right">
-				<header>
-					<span>با حمایت</span>
-					<hr>
-					<div class="devider"></div>
-				</header>
-				<a class="zigzag" href="#">ZigzagLab</a>
-				<header><a class="logo" href="#">وبلاگینا</a></header>
-				<p>
-					<i class="iconcc"></i>
-					<br>
-					تمامی حقوق این وب سایت شامل مطالب، محتوا و تصاویر تحت لیسانس
-					<a href="#">کریتیو کامنز</a>
-					و متعلق به وبلاگینا است. هرگونه استفاده از محتوای نوشتاری و چند رسانه ای این سایت یا بازنشر آن ها در رسانه های آنلاین و نشریات، تنها با ذکر منبع و درج لینک مبدا مجاز است.
-				</p>
-				<ul>
-					<li><a href="#">درباره ما</a></li>
-					<li class="devider">&bull;</li>
-					<li><a href="#">همکاری</a></li>
-					<li class="devider">&bull;</li>
-					<li><a href="#">تبلیغات</a></li>
-					<li class="devider">&bull;</li>
-					<li><a href="#">تماس با ما</a></li>
-					<li class="devider">&bull;</li>
-					<li><a href="#">نسخه ۴.۱.۲ - ۲۵ آذر ۱۳۹۱</a></li>
+			</div>
+			<div id="logo">
+				<h1><a href="#">وبلاگینا</a></h1>
+				<div><a href="#"><img src="img/baaemail-ad-comin-soon-728-90-2.png"></a></div>
+			</div>
+		</header>
+		<section id="wrapper">
+			<nav>
+				<ul id="mainNAV">
+					<li><a href="#" class="current"><span class="news">اخبار</span></a></li>
+					<li><a href="#"><span class="reports">گزارش</span></a></li>
+					<li><a href="#"><span class="interviews">مصاحبه</span></a></li>
+					<li><a href="#"><span class="articles">مقاله</span></a></li>
+					<li><a href="#"><span class="latest">معرفی</span></a></li>
+					<li><a href="#"><span class="reviews">بررسی محصول</span></a></li>
+					<li><a href="#"><span class="podcast">پادکست</span></a></li>
+					<li><a href="#"><span class="videos">ویدیو</span></a></li>
 				</ul>
+				<div class="social">
+					<a class="facebook" href="#">&#xF003;</a>
+					<a class="twitter" href="#">&#xF004;</a>
+					<a class="gplus" href="#">&#xF00d;</a>
+					<a class="rss" href="#">&#xF002;</a>
+				</div>
+			</nav>
+			<section id="main">
+				<section id="content">
+					<div id="slider">
+						<div class="big">
+							<figure>
+								<a href="#"><img src="img/timthumb_big.jpg"></a>
+								<figcaption>
+									<a href="#">بیخیال زبان و موسیقی، به کودکانمان کدنویسی بیاموزیم</a>
+								</figcaption>
+							</figure>
+						</div>
+						<div class="thumb">
+							<figure>
+								<img src="img/timthumb_thumb1.jpg">
+								<span><i></i></span>
+							</figure>
+							<figure>
+								<img src="img/timthumb_thumb2.jpg">
+								<span><i></i></span>
+							</figure>
+							<figure>
+								<img src="img/timthumb_thumb3.jpg">
+								<span><i></i></span>
+							</figure>
+						</div>
+						<div class="devider"></div>
+					</div>
+					<div class="tabbed">
+						<ul>
+							<li class="selected"><a href="#">تازه‌هــا</a></li>
+							<li><a href="#">محبوب‌تریــن</a></li>
+							<li><a href="#">پر بــحث‌ترین</a></li>
+						</ul>
+					</div>
+					<section id="posts">
+						<article class="post">
+							<figure class="post-thumb">
+								<a href="#"><img src="img/posts/timthumb1.jpg"></a>
+							</figure>
+							<section class="post-body">
+								<header>
+									<header class="post-head">
+										<a href="#">مرحله اول مسابقات بین المللی برنامه نویسی بیان آغاز شد</a>
+									</header>
+									<footer class="post-info">
+										<span>نوشته</span>
+										<a href="#">آرش زاد</a>
+										<span class="bull">&bull;</span>
+										<span>۱۷ مهر ۱۳۹۳</span>
+										<a href="#">
+											<span class="bull">&bull;</span>
+											<span>بدون نظر</span>
+										</a>
+									</footer>
+								</header>
+								<article class="post-content">
+									<p>سومین دوره مسابقات برنامه نویسی بیان که به صورت بین المللی برگزار می‌شود از امروز آغاز شده است. مرحله اول این دوره از مسابقات به صورت آنلاین برگزار می‌شود و برنامه نویسان ۷۲ ساعت برای حل سه سوال علمی این...</p>
+								</article>
+							</section>
+							<div class="devider"></div>
+						</article>
+						<article class="post">
+							<figure class="post-thumb">
+								<a href="#"><img src="img/posts/timthumb2.jpg"></a>
+							</figure>
+							<section class="post-body">
+								<header>
+									<header class="post-head">
+										<a href="#">شماره یکم سلام دنیا: ماهنامه تخصصی نرم‌افزارهای آزاد</a>
+									</header>
+									<footer class="post-info">
+										<span>نوشته</span>
+										<a href="#">سعید چوبانی</a>
+										<span class="bull">&bull;</span>
+										<span>۱۴ مهر ۱۳۹۳</span>
+										<a href="#">
+											<span class="bull">&bull;</span>
+											<span>۱ دیدگاه	</span>
+										</a>
+									</footer>
+								</header>
+								<article class="post-content">
+									<p>سلام دنیا ماهنامه تخصصی در حوزه نرم‌افزارهای آزاد است که از دل جامعه متن‌باز کشور بیرون آمده، ماهنامه‌ای که نه تنها مسئولیت نشر و تولید محتوا و دیگر زحمت‌هایش بر عهده خود جامعه متن‌باز است بلکه قطره قطره سرمایه‌گذاری انجام...</p>
+								</article>
+							</section>
+							<div class="devider"></div>
+						</article>
+						<article class="post">
+							<figure class="post-thumb">
+								<a href="#"><img src="img/posts/timthumb3.png"></a>
+							</figure>
+							<section class="post-body">
+								<header>
+									<header class="post-head">
+										<a href="#">گوگل قابلیت تشخیص گفتار فارسی را به اندروید اضافه کرد</a>
+									</header>
+									<footer class="post-info">
+										<span>نوشته</span>
+										<a href="#">آرش زاد</a>
+										<span class="bull">&bull;</span>
+										<span>۱۱ مهر ۱۳۹۳</span>
+										<a href="#">
+											<span class="bull">&bull;</span>
+											<span>۱۸ دیدگاه</span>
+										</a>
+									</footer>
+								</header>
+								<article class="post-content">
+									<p>اگر از کاربران سیستم‌عامل اندروید باشید، از امروز می‌توانید به زبان فارسی با تلفن هوشمند خود صحبت کنید. گوگل به تازگی قابلیت تشخیص گفتار به زبان فارسی را به سیستم‌عامل خود اضافه کرده است. این ویژگی باعث می‌شود تا از...</p>
+								</article>
+							</section>
+							<div class="devider"></div>
+						</article>
+						<article class="post">
+							<span class="top"></span>
+							<figure class="post-thumb">
+								<a href="#"><img src="img/posts/timthumb4.jpg"></a>
+								<figcaption>منتخب</figcaption>
+							</figure>
+							<section class="post-body">
+								<header>
+									<header class="post-head">
+										<a href="#">نگاهی به رویداد جهانی Startup Istanbul ترکیه</a>
+									</header>
+									<footer class="post-info">
+										<span>نوشته</span>
+										<a href="#">مریم انصاری</a>
+										<span class="bull">&bull;</span>
+										<span>۱۰ مهر ۱۳۹۳</span>
+										<a href="#">
+											<span class="bull">&bull;</span>
+											<span>۶ دیدگاه</span>
+										</a>
+									</footer>
+								</header>
+								<article class="post-content">
+									<p>رویداد استارتاپ استانبول که از طرف شتابدهنده Etohum در کشور ترکیه برگزار می‌شود، امسال میزبان استارتاپ‌های مختلفی از سراسر دنیا بود. این رویداد در یک بازه سه روزه، فرایند انتخاب استارتاپ‌های برگزیده را از بین حدود ۱۰۰ تیم، به کمک داوران بین‌المللی انجام می‌دهد و در نهایت ۱۵ استارتاپ نهایی...</p>
+								</article>
+							</section>
+							<div class="devider"></div>
+						</article>
+						<article class="post">
+							<figure class="post-thumb">
+								<a href="#"><img src="img/posts/timthumb5.jpg"></a>
+							</figure>
+							<section class="post-body">
+								<header>
+									<header class="post-head">
+										<a href="#">زمانی که گوگل، ویکی‌لیکس را ملاقات کرد</a>
+									</header>
+									<footer class="post-info">
+										<span>نوشته</span>
+										<a href="#">سعید چوبانی</a>
+										<span class="bull">&bull;</span>
+										<span>۰۳ مهر ۱۳۹۳</span>
+										<a href="#">
+											<span class="bull">&bull;</span>
+											<span>۲ دیدگاه</span>
+										</a>
+									</footer>
+								</header>
+								<article class="post-content">
+									<p>در ماه ژوئن سال ۲۰۱۱، جولیان آسانژ مهمانی ناخوانده داشت: اریک اشمیت، مدیر وقت گوگل از آمریکا به دیدن مردی آمده بود که در حبس خانگی به سر می‌برد.&nbsp; برای ساعت‌ها رهبر محصور مشهورترین انتشارات آنلاین جهان که با انتشار واقعیت‌های تلخی از چهره سیاست‌های حاکم، گرد و خاک بسیاری...</p>
+								</article>
+							</section>
+							<div class="devider"></div>
+						</article>
+						<article class="post">
+							<figure class="post-thumb">
+								<a href="#"><img src="img/posts/timthumb6.jpg"></a>
+							</figure>
+							<section class="post-body">
+								<header>
+									<header class="post-head">
+										<a href="#">نسل ۳ و ۴ شبکه تلفن همراه ایرانسل رسما راه اندازی شد</a>
+									</header>
+									<footer class="post-info">
+										<span>نوشته</span>
+										<a href="#">آرش زاد</a>
+										<span class="bull">&bull;</span>
+										<span>۰۵ شهریور ۱۳۹۳</span>
+										<a href="#">
+											<span class="bull">&bull;</span>
+											<span>۹ دیدگاه</span>
+										</a>
+									</footer>
+								</header>
+								<article class="post-content">
+									<p>همانطور که مطلع هستید، دو اپراتور ایرانسل و همراه اول از هفته‌های گذشته مشغول راه‌اندازی آزمایشی شبکه نسل ۳ برای کاربران خود بوده‌اند. طی این بازه، مشترکین این اپراتورها در برخی مناطق می‌توانستند از خدمات اینترنت پر سرعت نسل جدید...</p>
+								</article>
+							</section>
+							<div class="devider"></div>
+						</article>
+						<article class="post">
+							<figure class="post-thumb">
+								<a href="#"><img src="img/posts/timthumb7.png"></a>
+							</figure>
+							<section class="post-body">
+								<header>
+									<header class="post-head">
+										<a href="#">اینفوگرافیک: وضعیت شغلی زنان در کشور ایران</a>
+									</header>
+									<footer class="post-info">
+										<span>نوشته</span>
+										<a href="#">سعید چوبانی</a>
+										<span class="bull">&bull;</span>
+										<span>۰۴ شهریور ۱۳۹۳</span>
+										<a href="#">
+											<span class="bull">&bull;</span>
+											<span>۱۲ دیدگاه</span>
+										</a>
+									</footer>
+								</header>
+								<article class="post-content">
+									<p>کانون کارآفرینی ایران، به تازگی اینفوگرافی را منتشر کرده است که اطلاعات جالبی در رابطه با &nbsp;وضعیت شغلی زنان در کشورمان ارائه می‌دهد. این آمار به خوبی نشان می‌دهد که علی‌رغم اینکه کرسی‌های صندلی دانشگاه بیشتر در اختیار زنان است، ولی فقط ۱۳ درصد از نیروی کار متخصص، زنان هستند....</p>
+								</article>
+							</section>
+							<div class="devider"></div>
+						</article>
+						<article class="post">
+							<figure class="post-thumb">
+								<a href="#"><img src="img/posts/timthumb8.jpg"></a>
+							</figure>
+							<section class="post-body">
+								<header>
+									<header class="post-head">
+										<a href="#">شکست‌های میلیون دلاری</a>
+									</header>
+									<footer class="post-info">
+										<span>نوشته</span>
+										<a href="#">سعید چوبانی</a>
+										<span class="bull">&bull;</span>
+										<span>۱۹ مرداد ۱۳۹۳</span>
+										<a href="#">
+											<span class="bull">&bull;</span>
+											<span>۱۴ دیدگاه</span>
+										</a>
+									</footer>
+								</header>
+								<article class="post-content">
+									<p>روزگاری که دایی بزرگتر من شکست چند صد میلیونی در کسب و کار جدیدش را تجربه می‌کرد، برای هیچ یک از اعضای خانواده ما فراموش شدنی نیست. ولی موضوعی که هرگز از حافظه من پاک نمی‌شود، حرفی بود که موقع خاموش کردن ته سیگار در بالکن خانه‌اشان به من گفت:...</p>
+								</article>
+							</section>
+							<div class="devider"></div>
+						</article>
+						<article class="post">
+							<figure class="post-thumb">
+								<a href="#"><img src="img/posts/timthumb9.jpg"></a>
+							</figure>
+							<section class="post-body">
+								<header>
+									<header class="post-head">
+										<a href="#">پنجمین همایش سراسری نرم‌افزارهای آزاد/متن‌باز در زنجان برگزار می‌شود</a>
+									</header>
+									<footer class="post-info">
+										<span>نوشته</span>
+										<a href="#">سعید چوبانی</a>
+										<span class="bull">&bull;</span>
+										<span>۲۹ تیر ۱۳۹۳</span>
+										<a href="#">
+											<span class="bull">&bull;</span>
+											<span>۵ دیدگاه</span>
+										</a>
+									</footer>
+								</header>
+								<article class="post-content">
+									<p>نرم افزارهای آزاد/متن باز به نرم افزارهایی گفته می‌شود که برپایه اعتماد به جامعه کاربری و استفاده کنندگان بنا نهاده شده و همواره تلاش دارد تا با استفاده از ظرفیت بسیار بالای کاربرانش، خود را ارتقا بخشد. به همین دلیل...</p>
+								</article>
+							</section>
+							<div class="devider"></div>
+						</article>
+						<article class="post">
+							<figure class="post-thumb">
+								<a href="#"><img src="img/posts/timthumb10.jpg"></a>
+							</figure>
+							<section class="post-body">
+								<header>
+									<header class="post-head">
+										<a href="#">Trisquel فرزند خلف بنیاد نرم‌افزار آزاد</a>
+									</header>
+									<footer class="post-info">
+										<span>نوشته</span>
+										<a href="#">سعید چوبانی</a>
+										<span class="bull">&bull;</span>
+										<span>۱۹ تیر ۱۳۹۳</span>
+										<a href="#">
+											<span class="bull">&bull;</span>
+											<span>۴ دیدگاه</span>
+										</a>
+									</footer>
+								</header>
+								<article class="post-content">
+									<p>استفاده از واژه آزادی کار سختی است. نه اینکه ترس داشته باشد، بلکه سخت است. آنقدر به غلط از آن استفاده کرده‌ایم که معنای واقعی‌اش را از دست داده و دیگر چیزی جز یک توهم از آن&nbsp;باقی نمانده است. شاید فرهنگ و جامعه متن‌باز هم صرفن توهمی از آزادی برای...</p>
+								</article>
+							</section>
+							<div class="devider"></div>
+						</article>
+						<article class="post">
+							<figure class="post-thumb">
+								<a href="#"><img src="img/posts/timthumb11.jpg"></a>
+							</figure>
+							<section class="post-body">
+								<header>
+									<header class="post-head">
+										<a href="#">سه شرکت بزرگ اینترنتی در ایران از نگاه اکونومیست</a>
+									</header>
+									<footer class="post-info">
+										<span>نوشته</span>
+										<a href="#">آرش زاد</a>
+										<span class="bull">&bull;</span>
+										<span>۱۷ تیر ۱۳۹۳</span>
+										<a href="#">
+											<span class="bull">&bull;</span>
+											<span>۳۴ دیدگاه</span>
+										</a>
+									</footer>
+								</header>
+								<article class="post-content">
+									<p>وبسایت هفته‌نامه معروف اکونومیست در گزارشی که به تازگی منتشر کرده است، سه شرکت بزرگ در حوزه اینترنت در کشورهای مختلف دنیا را روی یک نمودار به تصویر کشیده است. این نمودار که بر پایه اطلاعات مجموعه World Startup Report...</p>
+								</article>
+							</section>
+							<div class="devider"></div>
+						</article>
+						<article class="post">
+							<figure class="post-thumb">
+								<a href="#"><img src="img/posts/timthumb12.jpg"></a>
+							</figure>
+							<section class="post-body">
+								<header>
+									<header class="post-head">
+										<a href="#">گوگل سرویس موسیقی Songza را از آن خود کرد</a>
+									</header>
+									<footer class="post-info">
+										<span>نوشته</span>
+										<a href="#">آرش زاد</a>
+										<span class="bull">&bull;</span>
+										<span>۱۱ تیر ۱۳۹۳</span>
+										<a href="#">
+											<span class="bull">&bull;</span>
+											<span>۳ دیدگاه</span>
+										</a>
+									</footer>
+								</header>
+								<article class="post-content">
+									<p>سرویس موسیقی Songza که به دلیل امکان انتخاب پلی‌لیست‌های مختلف موسیقی در بین کاربران معروف است، لحظاتی پیش اعلام کرد که به جمع دارایی‌های گوگل اضافه شده است. این سرویس ضمن اعلام این خبر در وبلاگ خود گفته است که در حال حاضر هیچ برنامه‌ای برای تغییر ندارد و تنها...</p>
+								</article>
+							</section>
+							<div class="devider"></div>
+						</article>
+					</section>
+					<div id="pages">
+						<a href="#">نوشته‌های قدیمی‌تر <i></i></a>
+						<div class="devider"></div>
+					</div>
+					<div id="mini-slider">
+						<span class="company"></span>
+						<figure>
+							<img src="img/mini-slider/timthumb1.png">
+						</figure>
+						<figure>
+							<img src="img/mini-slider/timthumb2.jpg">
+						</figure>
+						<figure>
+							<img src="img/mini-slider/timthumb3.jpg">
+						</figure>
+						<figure>
+							<img src="img/mini-slider/timthumb4.jpg">
+						</figure>
+						<figure>
+							<img src="img/mini-slider/timthumb5.jpg">
+						</figure>
+						<div class="devider"></div>
+					</div>
+					<div class="tabbed">
+						<ul>
+							<li class="single">مقالات منتخب</li>
+						</ul>
+					</div>
+					<section id="posts-grid">
+						<div class="grid-row">
+							<section class="post-grid">
+								<figure>
+									<a href="#"><img src="img/post-grid/timthumb1.jpg"></a>
+								</figure>
+								<article class="post-grid-content">
+									<header><a href="#">شماره یکم سلام دنیا: ماهنامه تخصصی نرم‌افزارهای آزاد</a></header>
+									<article>سلام دنیا ماهنامه تخصصی در حوزه نرم‌افزارهای آزاد است که از دل جامعه...</article>
+								</article>
+							</section>
+							<section class="post-grid">
+								<figure>
+									<a href="#"><img src="img/post-grid/timthumb2.jpg"></a>
+								</figure>
+								<article class="post-grid-content">
+									<header><a href="#">زمانی که گوگل، ویکی‌لیکس را ملاقات کرد</a></header>
+									<article>در ماه ژوئن سال ۲۰۱۱، جولیان آسانژ مهمانی ناخوانده داشت: اریک اشمیت، مدیر...</article>
+								</article>
+							</section>
+							<section class="post-grid">
+								<figure>
+									<a href="#"><img src="img/post-grid/timthumb3.png"></a>
+								</figure>
+								<article class="post-grid-content">
+									<header><a href="#">اینفوگرافیک: وضعیت شغلی زنان در کشور ایران</a></header>
+									<article>کانون کارآفرینی ایران، به تازگی اینفوگرافی را منتشر کرده است که اطلاعات جالبی...</article>
+								</article>
+							</section>
+							<div class="devider"></div>
+						</div>
+						<div class="grid-row">
+							<section class="post-grid">
+								<figure>
+									<a href="#"><img src="img/post-grid/timthumb4.jpg"></a>
+								</figure>
+								<article class="post-grid-content">
+									<header><a href="#">شکست‌های میلیون دلاری</a></header>
+									<article>روزگاری که دایی بزرگتر من شکست چند صد میلیونی در کسب و کار...</article>
+								</article>
+							</section>
+							<section class="post-grid">
+								<figure>
+									<a href="#"><img src="img/post-grid/timthumb5.jpg"></a>
+								</figure>
+								<article class="post-grid-content">
+									<header><a href="#">Trisquel فرزند خلف بنیاد نرم‌افزار آزاد</a></header>
+									<article>استفاده از واژه آزادی کار سختی است. نه اینکه ترس داشته باشد، بلکه...</article>
+								</article>
+							</section>
+							<section class="post-grid">
+								<figure>
+									<a href="#"><img src="img/post-grid/timthumb6.jpg"></a>
+								</figure>
+								<article class="post-grid-content">
+									<header><a href="#">سبک نگارش ایمیل‌تان می‌تواند شخصیت شما را تعریف کند</a></header>
+									<article>اگر در حوزه فناوری فعالیت می‌کنید، احتمالا بخش زیادی از ارتباطات کاری‌تان از...</article>
+								</article>
+							</section>
+							<div class="devider"></div>
+						</div>
+					</section>
+				</section>
+				<aside id="sidebar">
+					<section class="box image">
+						<a href="#"><img src="img/weblogina-currents-banner.jpg"></a>
+					</section>
+					<section class="box image"></section>
+					<section class="box">
+						<header class="box-head"><span>مشترک وبلاگینا شوید</span></header>
+						<section class="box-body">
+							<form action="#" method="post">
+								<button type="submit">
+									<i class="icon-fire"></i>
+									اشتراک
+								</button>
+								<input placeholder="Email Address…">
+							</form>
+							<div class="or"><span>یا</span><hr></div>
+							<p><a href="#">
+								<i class="icon-star"></i>
+								 به جمع
+								۱۱۰۰۰
+								خواننده وبلاگینا بپیوندید.
+								</a></p>
+						</section>
+						<footer class="box-foot">
+							<a href="#">Feed</a>
+						</footer>
+					</section>
+					<section class="box">
+						<header class="box-head"><span>محبوب‌تریــن</span></header>
+						<section class="box-body">
+							<a href="#" class="post-entry">
+								<section>
+									<figure>
+										<img src="img/side/timthumb1.jpg">
+									</figure>
+									<header>زمانی که گوگل، ویکی‌لیکس را ملاقات کرد</header>
+									<span>31 شهریور 1393</span>
+									<div class="devider"></div>
+								</section>
+							</a>
+							<a href="#" class="post-entry">
+								<section>
+									<figure>
+										<img src="img/side/timthumb2.jpg">
+									</figure>
+									<header>نگاهی به رویداد جهانی Startup Istanbul ترکیه</header>
+									<span>10 مهر 1393</span>
+									<div class="devider"></div>
+								</section>
+							</a>
+							<a href="#" class="post-entry">
+								<section>
+									<figure>
+										<img src="img/side/timthumb3.png">
+									</figure>
+									<header>گوگل قابلیت تشخیص گفتار فارسی را به اندروید اضافه کرد</header>
+									<span>11 مهر 1393</span>
+									<div class="devider"></div>
+								</section>
+							</a>
+							<a href="#" class="post-entry">
+								<section>
+									<figure>
+										<img src="img/side/timthumb4.jpg">
+									</figure>
+									<header>شماره یکم سلام دنیا: ماهنامه تخصصی نرم‌افزارهای آزاد</header>
+									<span>12 مهر 1393</span>
+									<div class="devider"></div>
+								</section>
+							</a>
+							<!--<div class="spacer"></div>-->
+						</section>
+						<!--<div class="spacer"></div>-->
+						<footer class="box-foot">
+							<ul>
+								<i class="icon select"></i>
+								<li><a href="#" class="selected">محبوب‌ترین‌ها</a></li>
+								<li><a href="#">آخرین مطالب</a></li>
+								<li><a href="#">ابر برچسب</a></li>
+								<div class="devider"></div>
+							</ul>
+						</footer>
+					</section>
+					<section class="box image galary">
+						<span class="videocast"></span>
+						<a href="#">
+							<figure>
+								<i class="icon-play"></i>
+								<img src="img/timthumb4.jpg" width="320" height="180">
+								<figcaption>ویدیوی آنباکس تبلت نکسوس ۷</figcaption>
+							</figure>
+						</a>
+					</section>
+					<section class="box ads">
+						<header class="box-head"><span>تبلیغات متنی</span></header>
+						<section class="box-body">
+							<a href="#" class="ad-entry">
+								<section>
+									<header>قیمت گوشی</header>
+									<span>قیمت روز گوشی | قیمت موبایل سامسونگ | قیمت موبایل سونی و غیره</span>
+									<div class="devider"></div>
+								</section>
+							</a>
+							<a href="#" class="ad-entry">
+								<section>
+									<header>آنلاین هاست</header>
+									<span>مرکز تخصصی میزبانی وب در ایران</span>
+									<div class="devider"></div>
+								</section>
+							</a>
+							<!--<div class="spacer"></div>-->
+						</section>
+					</section>
+					<section class="box image galary">
+						<span class="check-product"></span>
+						<a href="#">
+							<figure>
+								<img src="img/timthumb5.jpg" width="320" height="80">
+								<figcaption>بررسی کامل گوشی Xperia U سونی</figcaption>
+							</figure>
+						</a>
+					</section>
+					<section class="box image galary">
+						<a href="#">
+							<figure>
+								<img src="img/timthumb6.jpg" width="320" height="80">
+								<figcaption>بررسی کامل تبلت نکسوس ۷</figcaption>
+							</figure>
+						</a>
+					</section>
+					<section class="box image galary half">
+						<a href="#">
+							<figure>
+								<img src="img/timthumb7.jpg" width="146" height="70">
+								<figcaption>بررسی گوشی Xperia S ...</figcaption>
+							</figure>
+							<figure>
+								<img src="img/timthumb8.jpg" width="146" height="70">
+								<figcaption>آیا آیپد جدید واقعا چهار ...</figcaption>
+							</figure>
+						</a>
+					</section>
+					<section class="box image galary">
+						<a href="#">
+							<figure>
+								<img src="img/timthumb9.jpg" width="320" height="80">
+								<figcaption>بررسی لپ‌تاپ 300V5A-S0B سامسونگ</figcaption>
+							</figure>
+						</a>
+					</section>
+				</aside>
+				<div class="devider"></div>
 			</section>
-			<section id="foot-left">
-				<header>
-					<span>مطالب با دیدگاه‌های جدید</span>
-					<hr>
-				</header>
-			</section>
-			<div class="devider"></div>
 		</section>
-	</footer>
-</body>
+		<footer id="footer">
+			<section>
+				<section id="foot-right">
+					<header>
+						<span>با حمایت</span>
+						<hr>
+						<div class="devider"></div>
+					</header>
+					<a class="zigzag" href="#">ZigzagLab</a>
+					<header><a class="logo" href="#">وبلاگینا</a></header>
+					<p>
+						<i class="iconcc"></i>
+						<br>
+						تمامی حقوق این وب سایت شامل مطالب، محتوا و تصاویر تحت لیسانس
+						<a href="#">کریتیو کامنز</a>
+						و متعلق به وبلاگینا است. هرگونه استفاده از محتوای نوشتاری و چند رسانه ای این سایت یا بازنشر آن ها در رسانه های آنلاین و نشریات، تنها با ذکر منبع و درج لینک مبدا مجاز است.
+					</p>
+					<ul>
+						<li><a href="#">درباره ما</a></li>
+						<li class="devider">&bull;</li>
+						<li><a href="#">همکاری</a></li>
+						<li class="devider">&bull;</li>
+						<li><a href="#">تبلیغات</a></li>
+						<li class="devider">&bull;</li>
+						<li><a href="#">تماس با ما</a></li>
+						<li class="devider">&bull;</li>
+						<li><a href="#">نسخه ۴.۱.۲ - ۲۵ آذر ۱۳۹۱</a></li>
+					</ul>
+				</section>
+				<section id="foot-left">
+					<header>
+						<span>مطالب با دیدگاه‌های جدید</span>
+						<hr>
+					</header>
+				</section>
+				<div class="devider"></div>
+			</section>
+		</footer>
+
+		
+        <!-- <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script> -->
+        <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.10.2.min.js"><\/script>')</script>
+        <script src="js/plugins.js"></script>
+        <script src="js/main.js"></script>
+
+        <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
+		<!--
+        <script>
+            (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
+            function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;
+            e=o.createElement(i);r=o.getElementsByTagName(i)[0];
+            e.src='//www.google-analytics.com/analytics.js';
+            r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
+            ga('create','UA-XXXXX-X');ga('send','pageview');
+        </script>
+		-->
+    </body>
 </html>
